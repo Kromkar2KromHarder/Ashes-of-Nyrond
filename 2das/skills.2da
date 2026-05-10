@@ -29,8 +29,8 @@
 25  CraftArmor      8787      8788         isk_X2CArm      1          INT         0                  1                 ****      ****   SKILL_CRAFT_ARMOR       0             0
 26  CraftWeapon     8789      8790         isk_X2CWeap     1          INT         0                  1                 ****      ****   SKILL_CRAFT_WEAPON      0             0
 27  Ride            111889    111890       isk_x3_ride     1          DEX         0                  1                 ****      ****   SKILL_RIDE              0             0
-28  Stealth         ****      ****         isk_hide        1          DEX         1                  1                 ****      ****   SKILL_STEALTH           0             0
-29  Perception      ****      ****         isk_spot        1          WIS         0                  1                 ****      ****   SKILL_PERCEPTION        0             0
-30  HandleTrap      ****      ****         isk_distrap     0          DEX         0                  1                 ****      ****   SKILL_HANDLE_TRAP       0             0
-31  SenseMotive     ****      ****         isk_listen      1          WIS         0                  1                 ****      ****   SKILL_SENSE_MOTIVE      0             0
-32  Survival        ****      ****         isk_heal        1          WIS         0                  1                 ****      ****   SKILL_SURVIVAL          0             0
+28  Stealth         16777216  16777217     isk_hide        1          DEX         1                  1                 ****      ****   SKILL_STEALTH           0             0
+29  Perception      16777218  16777219     isk_spot        1          WIS         0                  1                 ****      ****   SKILL_PERCEPTION        0             0
+30  HandleTrap      16777220  16777221     isk_distrap     0          DEX         0                  1                 ****      ****   SKILL_HANDLE_TRAP       0             0
+31  SenseMotive     16777222  16777223     isk_listen      1          WIS         0                  1                 ****      ****   SKILL_SENSE_MOTIVE      0             0
+32  Survival        16777224  16777225     isk_heal        1          WIS         0                  1                 ****      ****   SKILL_SURVIVAL          0             0
