@@ -4,3 +4,4 @@ servervault/
 *.tmp
 *.ncs
 tlkedit2/
+docker/docker-compose.yml
