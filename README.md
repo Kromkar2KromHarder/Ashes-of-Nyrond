@@ -1,1 +1,1 @@
-# Unnamed NWN Server
+# Ashes of Nyrond
