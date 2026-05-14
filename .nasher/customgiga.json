@@ -1,82 +1,3226 @@
 {
   "exportinfo.gff": {
     "sha1": "A6873A615EB2844BE2BEEB5AACFF4BCD3CA59661",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_a_enter.nss": {
+    "sha1": "8DA38A3834C1F59B3F9871F0C1D4E2637C9E0E22",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_a_exit.nss": {
+    "sha1": "C8F9BE6C3D12669EE88709F7C146F0DD49C502C7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_a_supervisor.nss": {
+    "sha1": "633F506EA885FBB4A3379B01ADD139E3DC82FF20",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_attacked.nss": {
+    "sha1": "56A91A763A6F154E2DE8B62562EABB054DAAB702",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_bezekira.nss": {
+    "sha1": "B72020137B49825634E91988186B50DCFA94C825",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_blacksmith.nss": {
+    "sha1": "6633131C281B5BE1D3EF2E9E61AEE11204706952",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_blocked.nss": {
+    "sha1": "E23621F5659532DEEB8F937136ED0C9144B4C987",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_cantrum.nss": {
+    "sha1": "01A26209BF5DA1C7AEEF0497395D0A834829CE3F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_combat_end.nss": {
+    "sha1": "557E4A18CEEA48FC93436C0A8C6B32706423C461",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_conv.nss": {
+    "sha1": "F11999421FDEB27FFFD7FD2DEA70788E084BB5CE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_damaged.nss": {
+    "sha1": "0F7ACB0CE237BE0382B62BEEC71F561A8942063E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_dancer.nss": {
+    "sha1": "815B3A1B099771709C39EF7B9A8C9C28F761C5D6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_death.nss": {
+    "sha1": "4A08DF83DFC73912F10710A7BC91B813720947AA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_default.nss": {
+    "sha1": "BF0F8B9FB199A7603054393402AD4AE11B39E4C2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_disturbed.nss": {
+    "sha1": "AF9269A47A980891B9C2B19E4A2B3E60DCE6AE4A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_dm.nss": {
+    "sha1": "078B97454A1D917D59F67AAFC42FC4D5D415FCBB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_ghost.nss": {
+    "sha1": "30E49A1EBFDB15222318AE619E6FFB76608F3B04",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_guard.nss": {
+    "sha1": "634ECEACCB04A82B017CF8EE9FE6D68F2E014803",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_heartbeat.nss": {
+    "sha1": "D347157C62130902B3E34A0B35363B03571487C7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_mineworker.nss": {
+    "sha1": "B974CFD1E1F019B60F93E2450FC24807EE4A17DA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_perception.nss": {
+    "sha1": "1EBCA6F1158EE8DA5DBB982CF22653F97631C864",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_pitfiend.nss": {
+    "sha1": "779C868984C1FD9E43D62649E6BDFF1A7007F91C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_rested.nss": {
+    "sha1": "6B5CF05BEB894048ADEFBD9668300CC88D07B46F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_spawn.nss": {
+    "sha1": "5B2EA0E4A60FADAD9B421738ECA3ABA6116CFC3F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_special001.nss": {
+    "sha1": "06E8D60C75A6416EA3A5B1CA386B7E3A2A250B39",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_spell.nss": {
+    "sha1": "87DB90F15F41535E45E4AB4372E6002AA312A515",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_tortured.nss": {
+    "sha1": "7771AAEDD59AEA89311C6AE92748FAC89B4CAA01",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_torturer.nss": {
+    "sha1": "4B9917EE250ABA23687320B6E674A3CB89B89718",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_werecat.nss": {
+    "sha1": "3720E5B5328316DE9DC439580375C4D99988ACFA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_wererat.nss": {
+    "sha1": "B55C3F0D3D7CA3882269E8D2E518F8C7C114F6EA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ai_werewolf.nss": {
+    "sha1": "157308D7FA71E2E06FC9881C898C7DA8E940164E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ba_disturbed.nss": {
+    "sha1": "35BB6C0C6AE5876FD5EAEF52D4B05CB55910281E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_creature.nss": {
+    "sha1": "3624944AB73029B4DA03C1BF101DC89C2213DA73",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_dm.nss": {
+    "sha1": "A9953D19B4D7FE980273A2A95752E8EBB939F864",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_ghst001_001.nss": {
+    "sha1": "0C8726342AD388F77F414459D1D9CADBFB810311",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_ghst001_002.nss": {
+    "sha1": "2620A2C5460CA991C392F61F9003F900416E2243",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_ghst001_003.nss": {
+    "sha1": "09E1E9EEF844EABFAC7799FF99A7FEAF1A79205D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_ghst001_004.nss": {
+    "sha1": "7E96D92914EE56893E04234FD24CD420416628E0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_001.nss": {
+    "sha1": "05E45D297D1F9A44DDE0100B2403C691555BA57B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_002.nss": {
+    "sha1": "9AE8F370F2E952F6987C509375FCB743D5BE19E6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_003.nss": {
+    "sha1": "565E1A2D94F05EE2BC74A359B23B6C3ECE99C5FC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_004.nss": {
+    "sha1": "250FFDCC761F1D80EAC0209C471164A4F69EF533",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_005.nss": {
+    "sha1": "B543E372AEDA5D7FF1FBBA098E4A758C1E5E5D65",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_006.nss": {
+    "sha1": "276994B23A762E5BF0961F64C8A47A3369AEC2CE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_007.nss": {
+    "sha1": "5A7674E34ADC7A9F5107A191A883E926ABD8CD88",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_008.nss": {
+    "sha1": "E94AD2B86F732D02BDC0B799129BC076DF2CC83F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_grd003_009.nss": {
+    "sha1": "1DA76DDC7E22EC15C952ACD0C7D19998FFAAC5F8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_head001_001.nss": {
+    "sha1": "87AC4BB5F4ED6BC4F2DF05E2F5C8E6492C3E1760",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_head001_002.nss": {
+    "sha1": "EA72C94CB1E95F200F456221FDE1B1FE0B8122A0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_merc001_001.nss": {
+    "sha1": "C11E9EC6F81D1C47626096870D3E0E87B492D398",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_pc.nss": {
+    "sha1": "45EB3648164288EE00AB5072328082A7016A53C4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_pc_random.nss": {
+    "sha1": "D554592254A130B6592F4FA768F399B368C30E53",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_placeable.nss": {
+    "sha1": "04A8AE8A6143AEC8FB29F33B907727205E440A1D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_pris001_001.nss": {
+    "sha1": "8686B2A7DB7EAF31EA0BF38B2D1DA25665266FF1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_pris001_002.nss": {
+    "sha1": "09E1E9EEF844EABFAC7799FF99A7FEAF1A79205D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_pris001_003.nss": {
+    "sha1": "E7A59FBE11AC672E7D92E6DD09BDB2BBC8F1BB0E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_pris001_004.nss": {
+    "sha1": "E38D46141EC51BEFE070E79EF8166537681305DE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_pris001_005.nss": {
+    "sha1": "94EB91B2BE4A0208BAFEC8F4907FD773BB1EC2A5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_pris001_006.nss": {
+    "sha1": "7AB417C2B83E0D1BE2AC190BA86EF422A6542169",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_random.nss": {
+    "sha1": "D9702CA37AE2CF2856A0518745548932127237D1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_soulgrdn001.nss": {
+    "sha1": "422BF17509C7ABB61CE2283D0C1592928689A2EC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_c_supervisor.nss": {
+    "sha1": "401BF0760D654B7F2B541EFEF92F23670F01E27F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add001.nss": {
+    "sha1": "F1CFB464663A6147AD5CD2CC383D00EDA6B2378D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add002.nss": {
+    "sha1": "9D09A82CB38E21ACF2D608B7E9CAB0529D82ABB5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add003.nss": {
+    "sha1": "85A2049BD29872F69D03F5770CE98DD854F8F489",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add004.nss": {
+    "sha1": "CF9F8804B3F1563AA25CCF4B9D5CCE9B8232AC4F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add005.nss": {
+    "sha1": "FFDBEAFCFC08EFB4A5729B611F05C96F7974C630",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add006.nss": {
+    "sha1": "2E54EAC109EE73FC25C74C254AC9AFE0FF90B55E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add007.nss": {
+    "sha1": "998F01F60B78B0C772620D276D1191CE30C48CA4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add008.nss": {
+    "sha1": "E4C51A7E2846AE6685CEDBADAB9A34B87B8DA675",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add009.nss": {
+    "sha1": "EF930AD41328CD16BCA12889E7B1C5882144155F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add010.nss": {
+    "sha1": "498CCBAE0CC193BDF58B2F58F8206285B144396F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_add011.nss": {
+    "sha1": "A06D321E643A32D4FAF559FD62CD885EE1E6124C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe001.nss": {
+    "sha1": "F1CFB464663A6147AD5CD2CC383D00EDA6B2378D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe002.nss": {
+    "sha1": "9D09A82CB38E21ACF2D608B7E9CAB0529D82ABB5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe003.nss": {
+    "sha1": "85A2049BD29872F69D03F5770CE98DD854F8F489",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe004.nss": {
+    "sha1": "CF9F8804B3F1563AA25CCF4B9D5CCE9B8232AC4F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe005.nss": {
+    "sha1": "FFDBEAFCFC08EFB4A5729B611F05C96F7974C630",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe006.nss": {
+    "sha1": "2E54EAC109EE73FC25C74C254AC9AFE0FF90B55E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe007.nss": {
+    "sha1": "A859A9849E609B145816B6F87EA6C708E8D8A0AE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe008.nss": {
+    "sha1": "22B8D486B8382BB07F27E00D34B21BD839878602",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe009.nss": {
+    "sha1": "8A15D02223456EFCEEB2D2FD94EA78CC7D7A9673",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe010.nss": {
+    "sha1": "1156C50C7E47A2650CBC3AD9207DCAF99D935158",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe011.nss": {
+    "sha1": "A9A15509B6DD16F89AB2545E3D16D450AFC6D108",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe012.nss": {
+    "sha1": "30BA97DD0817018342D716EF9066F7E9609C2FF3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe013.nss": {
+    "sha1": "D4651EF0DF7321690AE97325E5B2B611909CD012",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe014.nss": {
+    "sha1": "27B64EA425DD12C029240A6CFF4C89DE53212B6E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe015.nss": {
+    "sha1": "1E68091236A1B380456C866DBB3D42D2DC6773FA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe016.nss": {
+    "sha1": "77757C0B14760334D9BBC70163E74277A68E664F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe017.nss": {
+    "sha1": "4F0BEFC599FACCB28904A966E174785B55B1C7CB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe018.nss": {
+    "sha1": "34FCDA5408143801EEAF25DA1D86742128558975",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe019.nss": {
+    "sha1": "E766E2CFFCE654DB8DBEE09E6C2B2AF763EF191F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe020.nss": {
+    "sha1": "040F3E1A18F0719B6B3548DAAFCEC1BABC489933",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe021.nss": {
+    "sha1": "1AFB0126744342A515B1EA25CAFD2ED932D419A1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe022.nss": {
+    "sha1": "694F211634C04526F456F26EB542ED9B2A66513B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe023.nss": {
+    "sha1": "4AA0DB90CFB3CA4BE72C78E5D4863CAC42A8ED25",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe024.nss": {
+    "sha1": "988C6EA20F792FE591EA061CBAAA4AC0386F3EEC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe025.nss": {
+    "sha1": "5C266D847AF9286AF523BB33C5F17F598924465F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe026.nss": {
+    "sha1": "ACF5C05D96679F201CB1D9684130E439E3D35C6E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe027.nss": {
+    "sha1": "1133026B692ED6075C0F34A1EB0C144040CF3E22",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe028.nss": {
+    "sha1": "81B0D9440854C75A5EB1F2E4677323A3D769ED31",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe029.nss": {
+    "sha1": "C086E4BFE1794F0B8A2ED8408DD1C7ABC084B08D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe030.nss": {
+    "sha1": "7945C15887AAA4D03A50589CD74116C5EA48BDEA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe031.nss": {
+    "sha1": "0BAB605D986F48207F823CFA8EC443AE9E9F29F9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe032.nss": {
+    "sha1": "0DCFFC34E5BA8694758D995F0356F31FD6462EF2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe033.nss": {
+    "sha1": "783FF01C89E55F2021BAE216631DF36FD59BD881",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe034.nss": {
+    "sha1": "09B37D39873F176DF81872F9FA57DB6F2575229F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe035.nss": {
+    "sha1": "4AEBA036E738E1E1601C137F728ACF0104B52333",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe036.nss": {
+    "sha1": "CB4EB27653E138CE904AF0FDA26E3B437A665FDA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe037.nss": {
+    "sha1": "BEBD2ABF5E85B6EFB37A67DDC60E2F7CBDD8FE83",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe038.nss": {
+    "sha1": "FF134C1C4B93EA14BE0224F500C84740F53E827B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe039.nss": {
+    "sha1": "A3460919F860EBA178D621E16F3E0082B228F459",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe040.nss": {
+    "sha1": "75C270A342B141BB30218B20828193589D9DB71A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe041.nss": {
+    "sha1": "9B79621D60CC14837267B37CF9CF7331D2F3A2CD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe042.nss": {
+    "sha1": "004D77F1C21C3B607A94BEFF34A1DE78F4FC10BC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe043.nss": {
+    "sha1": "7AA98091C20B54D010144E18431A288B7CE5F473",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe044.nss": {
+    "sha1": "52D98F45D55AA5471DA30390B93653882597209A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe045.nss": {
+    "sha1": "E9A78EC44462FCF6520F955612AFAC51B082D755",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe046.nss": {
+    "sha1": "407A31628E827FE9703201DD63553013CB3B9285",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe047.nss": {
+    "sha1": "7EF0F27D6625580A77500B9649CB0D0C1D9AD291",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe048.nss": {
+    "sha1": "A23A9E8B6177409E753E6DCF8E82D0A4549BBE3F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ccr_recipe049.nss": {
+    "sha1": "8C58EA2DEEDC5AE920BC70DAB8C19B1F25D45A35",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create001.nss": {
+    "sha1": "4A4C8D509F689899615B2BD78C044CB32A29D560",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create002.nss": {
+    "sha1": "DAF4B7282F9EA974B4171319786E7CBDB4E01CFB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create003.nss": {
+    "sha1": "A14220CB5750B048518972F130E7C8D9F162775A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create004.nss": {
+    "sha1": "9A9AD71EE780CB9C3FA9AE614EE79CC962B394E5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create005.nss": {
+    "sha1": "8AD0A5B82EFA187B49E78DF19660E6FB7E8E0357",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create006.nss": {
+    "sha1": "4799191D857799748D588544422E38E8C005E967",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create007.nss": {
+    "sha1": "3DB0EA98BA9BFB1F3EBCBEB4405F387CBBC80FA4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create008.nss": {
+    "sha1": "DB4B954B2977DBD3A4F1DFFCF364CB7669022B8D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create009.nss": {
+    "sha1": "92AAF35C78D8B1D5DE75FC80B4FC2EE375D8DE2E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create010.nss": {
+    "sha1": "57A92694E1474267B8E32D6C517116F9196F7A4C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create011.nss": {
+    "sha1": "68A6315CAA6AC428C8C08F4DB23EA7FD12AF2FFC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create012.nss": {
+    "sha1": "83FAD81B9B1F088912531604D1C400A2145BFD73",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create013.nss": {
+    "sha1": "2EE726691847B45804C8EE7437061418637D7A43",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create014.nss": {
+    "sha1": "2C93CA22DAB69994E13D1E62EC403BF974FB6F13",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create015.nss": {
+    "sha1": "BEABA732149E874D9FBAE378F3879E1C58285BF7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_create016.nss": {
+    "sha1": "2EE7A23B2F5FF9A2747AA3E87985C26A7714FBB7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit001.nss": {
+    "sha1": "02AA8D7C96774AFB17EFE2E34DFB3693F0460EC5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit002.nss": {
+    "sha1": "6E7A57E2CEB6AF08D61134D281D8789F225C09B0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit003.nss": {
+    "sha1": "51B7F0A787AF98ABDE5484369F3B61EE51391ADF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit004.nss": {
+    "sha1": "C75A07BDD2CC0A7D345C56CC284C676388C58053",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit005.nss": {
+    "sha1": "57430B63F6E23ABD9B6DC22CB5D5003A48BE4E0E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit006.nss": {
+    "sha1": "B21D3C4D7A5CD3284DEB749BAAFF92A7F81EDB33",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit007.nss": {
+    "sha1": "04A180484DBD330815F7B17846F8D2249DF9A186",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit008.nss": {
+    "sha1": "51C228E62F00784AEED45F472934103EB2C4B4AD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit009.nss": {
+    "sha1": "D01DD91BD906FDB7B627452E3636C594483A1362",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit010.nss": {
+    "sha1": "E556F7B3158062212E8748C3C7BAF2164BD9E4FA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit011.nss": {
+    "sha1": "72EA8253A6D38AE5D13BA23866E4CBA4F68ECFE8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit012.nss": {
+    "sha1": "8E2CE7F515E5D8DB5551AEE2224130BC658FC3A6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit013.nss": {
+    "sha1": "50B6C1C3D00D9841C6E19E33F9F88784E32C4A66",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit014.nss": {
+    "sha1": "D2C6A47B10612670AF782F78F746B7161CA02471",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit015.nss": {
+    "sha1": "B12DC2CF394A0108C6BC8E99F7B64BEB595BCE10",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit016.nss": {
+    "sha1": "F1ABFF0F79318F023D927F6AEC0320C6E0F26611",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit017.nss": {
+    "sha1": "828D7F8A8586B3EF92C99156EBB8DE530E80E780",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit018.nss": {
+    "sha1": "E89AA24FB9A9A69E8410423B6F33E06375B14476",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit019.nss": {
+    "sha1": "C74A315F3A328D9910BF1213ECAEB63FB4C5667C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit020.nss": {
+    "sha1": "80C488BA13C4BCFFDCC519C8C288DFB1FD84BDC8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit022.nss": {
+    "sha1": "1E0045B6D6FA89A6CB8E5B81DB89158F698C1714",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit023.nss": {
+    "sha1": "513E35A6721C614EABC611254DE6909EDF68D7CE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit024.nss": {
+    "sha1": "58F4AC2400FB53653D777549FC7DF2AFAEFA290C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit025.nss": {
+    "sha1": "048514FF003407280B03F3951CED9C079F53237B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit026.nss": {
+    "sha1": "252672019183761BDBD023740ECB1179BE6DBEDE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit027.nss": {
+    "sha1": "50582CC1AC34D5FA12D640808244085F8F8B7E09",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit028.nss": {
+    "sha1": "1F56F740C0BFD9061CAEDEBC9DBE9D6BA3AC6AB7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit029.nss": {
+    "sha1": "7329DE80482BE930CF0BC0DADE022C8CFF8FF0FF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit030.nss": {
+    "sha1": "E860ECFE33E85C8B6D2D36460AD0E4626506C0C2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit031.nss": {
+    "sha1": "CE02939C70738CF0D9F508D0F2461EBDA850FB35",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit032.nss": {
+    "sha1": "F023B74C3C8FB5D3EDD867F8860F118275B8EAA1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit043.nss": {
+    "sha1": "D42BA5E4C46DFB609C518CEFBB95748B5BD8F5D2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit044.nss": {
+    "sha1": "3679DB7BCD818D032329977F094F6A1BFD8F87BC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit045.nss": {
+    "sha1": "2F2823D446D671A83F6ED206770294D77AC9CD10",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit046.nss": {
+    "sha1": "387FE36720293050866F80650B241FCDA28F97E5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit047.nss": {
+    "sha1": "C80AE2FC271F5B8A92AC7C20DC315EC084B602B6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit048.nss": {
+    "sha1": "9AC74B2C8EF31B9C74C06574C6796781B5E14836",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit049.nss": {
+    "sha1": "944702D73C7828AAE2A400E2C66B543FA0781A6E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit050.nss": {
+    "sha1": "7C3885FA550F10EECA60263BEED802E14FBFF5CC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit051.nss": {
+    "sha1": "CA67B181CCCA7D9A3D8276A241DC9FEAAA10E260",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit052.nss": {
+    "sha1": "8555200BED70513B56746EEB10C4E42C41D3C82D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit053.nss": {
+    "sha1": "2A9B96F0BB816F9F7731757F94767018659B9478",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit054.nss": {
+    "sha1": "DEA9773811BD3D993423AD08B10A8AA3A1D83C1A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit055.nss": {
+    "sha1": "7387635EF891B1AAE607531959399AA77CE4F74C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit056.nss": {
+    "sha1": "8E4252A1FA59F0E75096A6DFAF2B3FD1AE9ED6A6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit057.nss": {
+    "sha1": "A7B34D0B3BF9C76123C7682F36CCA4FAA27BD36F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit058.nss": {
+    "sha1": "00FE222FAE8512A2DFD648B57EBFEFEAB0D59041",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit059.nss": {
+    "sha1": "10681C458566CDA1EC8D7D87DE19606B45A96AC4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit060.nss": {
+    "sha1": "88A008642F787334CED24C43F85BABDDE45D8CEC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit061.nss": {
+    "sha1": "B1E1F4C0979CCFEFD431BF1A2E2A4E6A2EA1B1FB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cen_edit062.nss": {
+    "sha1": "8C0FFCA481140890D9A1082E27B65E1CE4487740",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank001.nss": {
+    "sha1": "CE4E8FDDB693B07E9F1DE4D2CE4C23D210D2EEA4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank002.nss": {
+    "sha1": "AC5D4C5D802F1BED29600E3544628A5612688063",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank003.nss": {
+    "sha1": "ABD26B6FCDA9840D6E61C0360BD3E8E844C13E8D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank004.nss": {
+    "sha1": "A598B982F2210CE221DF4FCCBE6A5034006C6021",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank005.nss": {
+    "sha1": "C4C5F2BB3CB8619AB3579F076D1F4371245141C2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank006.nss": {
+    "sha1": "50445D5F20044FD246B5E89236507930DA943E66",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank007.nss": {
+    "sha1": "77EE945BD61EE1D170D284F0EAF21B1993A4A69A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank008.nss": {
+    "sha1": "BECB869AD937DACC819A4DC19B0BAAC332CCFF12",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank009.nss": {
+    "sha1": "F3176FDFF1FDEDFF20A5B0064D7E820E156A59D5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank010.nss": {
+    "sha1": "BB6FF9A10D5E1B85B9334A1D883947CF23FE4137",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank011.nss": {
+    "sha1": "6302AA42CDC0A2B2F628F27F3ED50534D3A1B203",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank012.nss": {
+    "sha1": "72FC634D2A24A6941FD9BE5CC3EF1F24211E34D1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank013.nss": {
+    "sha1": "599C2257567EBC4F79CEEDC00B84257DF76DC0D3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank014.nss": {
+    "sha1": "EC0E69FCFCABF988BAF84E6CA11C9530829B36AC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank015.nss": {
+    "sha1": "86E329F40832AE29F77474E6CCBE8B6D49099956",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfi_bank016.nss": {
+    "sha1": "06B52E8A108D06882B122E9D580A01B595DCBEFB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use001.nss": {
+    "sha1": "DE878D7CC7B8AB5B96661CF9C8ECE47D0AEA50A7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use002.nss": {
+    "sha1": "30BA97DD0817018342D716EF9066F7E9609C2FF3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use003.nss": {
+    "sha1": "D4651EF0DF7321690AE97325E5B2B611909CD012",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use004.nss": {
+    "sha1": "27B64EA425DD12C029240A6CFF4C89DE53212B6E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use005.nss": {
+    "sha1": "1E68091236A1B380456C866DBB3D42D2DC6773FA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use006.nss": {
+    "sha1": "77757C0B14760334D9BBC70163E74277A68E664F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use007.nss": {
+    "sha1": "A8E7232F6B4D3179813A6658ABF87E076CD6D8EE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use008.nss": {
+    "sha1": "D35178ED74C0EF57E9AD6CB1B2F280F1644A1EF6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use009.nss": {
+    "sha1": "FD8AF650F4313138F3A58A7D04A61C1E8A176C13",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use010.nss": {
+    "sha1": "C8C57367E3594543657AA940CEABDBFE7B15C621",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use011.nss": {
+    "sha1": "3E93586E2FAF8B6EF8B2AFE424B1AA500F7BEC53",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use012.nss": {
+    "sha1": "599F7F3C071B7DA0DD7B9AE6E0F56BF48EFAAEED",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use013.nss": {
+    "sha1": "42E6A0FE3319D95857ED05A013818C235B49F3C4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use014.nss": {
+    "sha1": "B247BC1B862D5466A924C7C30407E1A4174A3878",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use015.nss": {
+    "sha1": "C07DCE5BCC0202F7C8AC72D355AE9040B597889C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use016.nss": {
+    "sha1": "655C1BB148AFFC9A51FC08F39F3795206524A5E1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use017.nss": {
+    "sha1": "4E115D21B70EFDB07E9B2DE8A38D161FE1689E4E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfo_use018.nss": {
+    "sha1": "AB7AF08FDFE1E4595D663747F6EBE6A0B78038EA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfx_use001.nss": {
+    "sha1": "92680E6B7F244C54937764A1F937DA6EBB4A0DC1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfx_use003.nss": {
+    "sha1": "10C05F33C557DAE6A1226123241EBA87EFDA5510",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfx_use004.nss": {
+    "sha1": "F3D985602F750AF623446D8B88A5886094D3E728",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfx_use005.nss": {
+    "sha1": "CB1D293D2C8F5753C48D2DDF5A1DACCBFC0C0FAC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfx_use006.nss": {
+    "sha1": "317392CA7E28E647B0FA1E66AB87E1D6A980DCEF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfx_use007.nss": {
+    "sha1": "4D52AF628760823694578E69F367C3E0C99CC035",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cfx_use009.nss": {
+    "sha1": "A36F70AEBF731AE2570F3EB80E8BD3BADB272196",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add001.nss": {
+    "sha1": "85CAF9017A5C52D33BEEDCE1CBF089E7A133BF07",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add002.nss": {
+    "sha1": "7C7EE7FB3586B8E5F632F86C8BC4BA713CAAA756",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add003.nss": {
+    "sha1": "3988ADACFC11CB56A70F8EFD266EE18C0802ECE6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add004.nss": {
+    "sha1": "7BF79FF2524C6F6BAAC5DEC2CE0DDACEE6F222C7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add005.nss": {
+    "sha1": "5EB2F01547C2F8EAC6944C3BCE66F81AFE4CB47D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add006.nss": {
+    "sha1": "8669CEB4DD889521E3EA249985EE4E8DDFCC61B6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add007.nss": {
+    "sha1": "FD43C2940F5AD95FB41F01317A9EFBECEE34DA11",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add008.nss": {
+    "sha1": "0F5DE189E58AB5527CCB6FA9BEF5F4477F464D0E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add009.nss": {
+    "sha1": "6347B99A2A8F2ECFEC91C38065CE57F70F17676F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add010.nss": {
+    "sha1": "B74B5E1B3804772ACCDD4EC206B9D7BACB1CFC32",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add011.nss": {
+    "sha1": "71D87E62C512E78E9FD621A2DB060B3FD14FBB4B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add012.nss": {
+    "sha1": "128D39F998B4A63675632B8A9DCF40A8137816C9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add013.nss": {
+    "sha1": "BD338207A9D42AFCA1297A5898EB2755540DF188",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add014.nss": {
+    "sha1": "F0ABDB8B71F5A7697AEABF6067DECCE3E4275DD7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add015.nss": {
+    "sha1": "F5A4CC53CFF2A597D350374DBC2BB2E11EE0128D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add016.nss": {
+    "sha1": "0C995C9DB46576DC5CF06F6419A613251D7842CD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add017.nss": {
+    "sha1": "377C1EE2FA45DFC9C7EC977CAD4CFA7C6188CE3D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add018.nss": {
+    "sha1": "84B941EF2AFDA0F4541694AA61C7CCFA08DE93A5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add019.nss": {
+    "sha1": "8E3716C47DDC9748104FE48315AD942B785E226D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add020.nss": {
+    "sha1": "FE091FD4988D77876BD1E356357490AC3F18DD92",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add021.nss": {
+    "sha1": "DEB0A818F659138E1E63D8DE8845FACD9E9889D4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add022.nss": {
+    "sha1": "34731A08C8EB7018CCEF2C1B36A0C9CC4CB1C7A1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add023.nss": {
+    "sha1": "C7F6BF10ADDCCBA9C48916470AD1196A5B9C48C2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add024.nss": {
+    "sha1": "7D154498617BAFE8B1A47DEE4E84D672F4EBE437",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add025.nss": {
+    "sha1": "D5547A4FBFB61FD8DFAD26B910D72381B443DFC6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add026.nss": {
+    "sha1": "ACED335EDF63A41019F4FB4092A1002E86CAEF15",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add027.nss": {
+    "sha1": "A0D47ABC9CBA7B59EC466935FAFCAD6DC8A7329D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add028.nss": {
+    "sha1": "B865838BAEAB0A771E377A4EDFA82CDE981CAD85",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add029.nss": {
+    "sha1": "DB2659B2472F127C6019BABFB231BCCFE74A6D5B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add030.nss": {
+    "sha1": "CA040A49008AF45800FC09E7BF7ADBB6317D8A4A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add031.nss": {
+    "sha1": "F7DF4D98BA546A48686D28AC1E62B163E126A2DF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add032.nss": {
+    "sha1": "F6D0433F833251BF415596233C94D96ECF38BF00",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add033.nss": {
+    "sha1": "1EBD47FB92C619AFACFC816CE1F18C1C6B48CE0E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add034.nss": {
+    "sha1": "3D14D19DDB443FFB0923FFD3E661CA9BE830609E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add035.nss": {
+    "sha1": "939C8E43203C05321D732FC4B036C36E247DEC3B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add036.nss": {
+    "sha1": "B014FB89EC38E057035EAF9887C4B8E1E2B8015F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add037.nss": {
+    "sha1": "1B1D98C29C30FB7B51904CB85DE8BBAA5AF3C77E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add038.nss": {
+    "sha1": "345CA024180A3515A39C78A68136085B7031270F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add039.nss": {
+    "sha1": "5DBB09B7AFD88DC32766E9E2B1E989FEE1DC1B1E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add040.nss": {
+    "sha1": "10E4AEB43169503BC93A8C840F90A622C1D826B5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add041.nss": {
+    "sha1": "D23FADEEBEC45998C840055B02B62B9288D7EFF3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add042.nss": {
+    "sha1": "BDCB8B35ECBA94457EB8A8745F55948CB629C8D2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add043.nss": {
+    "sha1": "4578B43B168049245ACA06414AD8EEAA510066CE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add044.nss": {
+    "sha1": "4FCCC55234A4155FEFBE1B5276F211D5A66A779E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add045.nss": {
+    "sha1": "3D2A977D0DDFC862596E394C69FFAC7A7A8EE95C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add046.nss": {
+    "sha1": "7835F55CF4148F65D08C4DCFD60DCB8F365B7444",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add047.nss": {
+    "sha1": "F521C203779A68ABCA62BCF37EC4157AD738E926",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add048.nss": {
+    "sha1": "66F41895CE66069BA33ABB7F46A8757B8234F5D0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add053.nss": {
+    "sha1": "9196D8F0D44CD44BBCFE15A1BF1CA89C77F8FD16",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add054.nss": {
+    "sha1": "6BB0D956536B1F101A629454C4F8ED3B5B211115",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add055.nss": {
+    "sha1": "C15DAA7EE0AB9567543F3A12E63846214F38CE9C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add056.nss": {
+    "sha1": "C206EFCBE652DD57E24B55CF689A20F33C8A4F8A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add057.nss": {
+    "sha1": "4B9F0AB61583FB580DAEAC9BF403FAD6857F8F98",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add058.nss": {
+    "sha1": "62EBABA31CAD5350CFB3AC672D21EF31E3D9D8EF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add060.nss": {
+    "sha1": "89A58E5E03DE3DAA5987D3F0F3ADC5EB52E72C7B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add062.nss": {
+    "sha1": "E6104B3B2219516D8069789C5878B29346106557",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add063.nss": {
+    "sha1": "C098117FCB3E878EDA03EBD1B8C041F7D5253653",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add064.nss": {
+    "sha1": "3213E40506AF056474E0BA5DF58347A451412220",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add065.nss": {
+    "sha1": "D815A4117CF6F7F737E3DFFB93366BCEF5B3BDDB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_add066.nss": {
+    "sha1": "5F8793D7E808849EEF5FE6B5D22C72DE682A9057",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color001.nss": {
+    "sha1": "8D78DB6DF458FF36410C12C1245EA121F3D3929E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color002.nss": {
+    "sha1": "733192E21E7571B53243AC787AE102CB72404035",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color003.nss": {
+    "sha1": "B227D761B5FB81BC12CB75354B5F804DF262E638",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color004.nss": {
+    "sha1": "9381C86B8FB96808D03DFCF1C366F5B16BB5F525",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color005.nss": {
+    "sha1": "188950A3DDFA842F8DC598073F9568D0FF8C06D2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color006.nss": {
+    "sha1": "0A7B9DF85A9A7155EF7E73EE58C5151CB31A8078",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color007.nss": {
+    "sha1": "30BA97DD0817018342D716EF9066F7E9609C2FF3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color008.nss": {
+    "sha1": "D4651EF0DF7321690AE97325E5B2B611909CD012",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color009.nss": {
+    "sha1": "27B64EA425DD12C029240A6CFF4C89DE53212B6E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color010.nss": {
+    "sha1": "1E68091236A1B380456C866DBB3D42D2DC6773FA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color011.nss": {
+    "sha1": "77757C0B14760334D9BBC70163E74277A68E664F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color012.nss": {
+    "sha1": "B07AEEABD5ABBC4D896443647AD17B4A15E27827",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color013.nss": {
+    "sha1": "CDBBF3FF7359F4DD512A2768F5565F81DA8AA6C0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color014.nss": {
+    "sha1": "3495A05F480F5A6F690F5C620BBCB4057E24B2F3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color015.nss": {
+    "sha1": "0D7798545707ECC20B9196960E8A0706D3957129",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color016.nss": {
+    "sha1": "CF71F3BD3B94549F6C73FC373C57F08B6DB10C88",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color017.nss": {
+    "sha1": "537944A131CF953F1FBEF3652584E8BEAA401A9D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color018.nss": {
+    "sha1": "9CF04BA12EFFBEBD1AA6637D683A1B38E9F3326F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color019.nss": {
+    "sha1": "812BD39C763EF13CB51D81352756289E1B0A98BC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color020.nss": {
+    "sha1": "905E134C06E1156DE99DBDA5F8BA20A07F962176",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color021.nss": {
+    "sha1": "DB3E968CB1F56F15514ABED97E44B3B1AA4FEA20",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_color022.nss": {
+    "sha1": "DF8FB70B057A0738FE7D17CE4EFF334B0482102B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form001.nss": {
+    "sha1": "799CA4D76C2207204CF9E77D87B5405409048ACC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form002.nss": {
+    "sha1": "F6CEF742DE30B42C91C979EF487711534DC83B9E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form003.nss": {
+    "sha1": "955B5ACE50BD6FBF51FF4AF2A007789A7CC98E90",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form004.nss": {
+    "sha1": "2E6A688FF6D5EC607008411B7586C07E94EFE62B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form005.nss": {
+    "sha1": "5215AA586BEBFA5D52F3926837A7A7202E608183",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form006.nss": {
+    "sha1": "9EBC14A1FA76AB1BD05C0B7C0D2AF2AC95640B1E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form007.nss": {
+    "sha1": "B85882E37807CB6394E93E4DA9162529F8FB4067",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form008.nss": {
+    "sha1": "72BA28EBB6BF513BECAB0853642CDABE1AFAC5E7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form009.nss": {
+    "sha1": "A65561CE4FAC3A917DDA0D8F77A71AE3E76FE483",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form010.nss": {
+    "sha1": "0AE317F846890011BDCF2FC87B98794426B985FF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form011.nss": {
+    "sha1": "7CD6389E2B3EFAD9647157A05DB6EFC816179969",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form012.nss": {
+    "sha1": "0EC1AAE0A9B0E8F52D0C3262E02D46BE34AB2D7E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form013.nss": {
+    "sha1": "065BCE8377C88F7E0C0BE271E3A74F0BD784D40B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form014.nss": {
+    "sha1": "C6BB92EFE0997D5D43E852A307835D53CD3943D1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form015.nss": {
+    "sha1": "2A592A43C3BEDD076A2C9F1D174FE30F30669701",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form016.nss": {
+    "sha1": "AD12767B98A8CD531E1DE76BDB21339FD0FB5527",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form017.nss": {
+    "sha1": "30F974190D518B2158C9BE6380A09B04B4C99E71",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form018.nss": {
+    "sha1": "6882898FEBE76A32CD37F2FC8BC69243AD6CD915",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form019.nss": {
+    "sha1": "3D2001F579F10172C9242297EA33D4B4CE34FC8A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form020.nss": {
+    "sha1": "255B12747E152369135DFE0AE8C3B269731188F1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form021.nss": {
+    "sha1": "3A90D682CB872F2401141121549778BCA5861116",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form022.nss": {
+    "sha1": "7F1FF8C915F8104711BECD6EFCDCC4214BBB47D2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form023.nss": {
+    "sha1": "02637DAFC32269FDCEBE859CE3F149FE2D824DDD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form024.nss": {
+    "sha1": "D8CE9F42C9E5B8C9AF5159BA69CBC889FDAB4007",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form025.nss": {
+    "sha1": "9FDE9E0A42F4F4348AD3B684623C5C21239FF047",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form026.nss": {
+    "sha1": "519FD625501F29E3484E910E5E995DFE09505008",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form027.nss": {
+    "sha1": "E1965004C8F0F57002377ACD10F22AECD081EEF9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form028.nss": {
+    "sha1": "BBAE219B9062D194F6411152DF4553794CFC29CD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form029.nss": {
+    "sha1": "61189A26F4E089ACFC01D35C1AF3D88F2E5AA05A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form030.nss": {
+    "sha1": "E32582E834AD7E5104449F866C38649DDF6226EC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form031.nss": {
+    "sha1": "17AFF7725EF9C8061D7D0ACC55D4DF3CEEB580DE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form032.nss": {
+    "sha1": "CDBBF3FF7359F4DD512A2768F5565F81DA8AA6C0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form033.nss": {
+    "sha1": "3495A05F480F5A6F690F5C620BBCB4057E24B2F3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form034.nss": {
+    "sha1": "0D7798545707ECC20B9196960E8A0706D3957129",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form035.nss": {
+    "sha1": "2B440811F663D5B52BCA00BD42EA37EE1AFB0230",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form036.nss": {
+    "sha1": "DB2008AB34FA8DB5300089B3AF69807364D7BBE1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form037.nss": {
+    "sha1": "AA695A889F098871292ED37D490E8E17C82B2596",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form038.nss": {
+    "sha1": "8E7B5BE4BF1A7B32DAF8165B5208ECF4438EB001",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form039.nss": {
+    "sha1": "58F47D0A2F334C82D89BF5A705E8E3196A67EEC0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cip_form040.nss": {
+    "sha1": "92AB037455658AA57FE4DD1C4AA39E926C4FD23C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_read001.nss": {
+    "sha1": "CB3CE9B680197F94303D7A8DE40CCB1294298C9E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write001.nss": {
+    "sha1": "CE85E7D4B501CA980C42593C49DB0F757E35806E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write002.nss": {
+    "sha1": "8F685EF7A531DC3370497C3DBC3856BBC20F4887",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write003.nss": {
+    "sha1": "CCC8C6F72F7C36558CF7231E0F4B36E48B4225B7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write004.nss": {
+    "sha1": "C27419ACBC4CBC960FFF68F02FDCBE9E711ACDC1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write005.nss": {
+    "sha1": "22E12FE3FBEF45BE8A2E0740FE8E656FF4A3F72F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write006.nss": {
+    "sha1": "D7A9DC444E238B9B9BD8A2B8CF70A4BD5D14E270",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write007.nss": {
+    "sha1": "C8CB45F5EF0C2D6C0AB09EFA270940516B1A4D08",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write012.nss": {
+    "sha1": "B527B859466C5B1B1D6204B9117D8E2B69AD128A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write013.nss": {
+    "sha1": "D75251BB3138D05DEFC3E635F9A6CDE74606321C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write014.nss": {
+    "sha1": "406C1399855CD28253BD2123A654C092460B45EF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write015.nss": {
+    "sha1": "C8A21B91431B083032920EB9A2C9CA142A3B2F2F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cme_write016.nss": {
+    "sha1": "38A350707D2E93F336C00F044D7AF940C9AADBB8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_co_close.nss": {
+    "sha1": "DE32022D7DD50EFD24F96742DB5AEE0422A031D0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_co_open.nss": {
+    "sha1": "D08B3C50BDC7926E14AAD69604B8635BD82C2BAC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use001.nss": {
+    "sha1": "A43546D723FF75278590DEC538BC9C95D6FC1C16",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use002.nss": {
+    "sha1": "6C2C3966E0739BD17CB07E2593FC9716B4602205",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use003.nss": {
+    "sha1": "B42A2F156D3B518F7AA3DDFCAB3657150E0F8496",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use004.nss": {
+    "sha1": "30BA97DD0817018342D716EF9066F7E9609C2FF3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use005.nss": {
+    "sha1": "D4651EF0DF7321690AE97325E5B2B611909CD012",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use006.nss": {
+    "sha1": "27B64EA425DD12C029240A6CFF4C89DE53212B6E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use007.nss": {
+    "sha1": "1E68091236A1B380456C866DBB3D42D2DC6773FA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use008.nss": {
+    "sha1": "77757C0B14760334D9BBC70163E74277A68E664F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use009.nss": {
+    "sha1": "81CC86C31B07567B0802C2A693578439F4E23FF4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use010.nss": {
+    "sha1": "D8A1F18E97925D2D8C5D6E2986F37781E60FC7FD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use011.nss": {
+    "sha1": "B356E07E086834631A187B915411EF85773D2FF5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use012.nss": {
+    "sha1": "9278BFF7FF509B4FFDFA1F9CBE0D38AE7720EDC1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use013.nss": {
+    "sha1": "1B4590AD437691AF6B3441EC36D77CED6C592B00",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use014.nss": {
+    "sha1": "9E01E0D78A00EBA814D0762A86F012CBA72FD619",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use015.nss": {
+    "sha1": "0A0A52C388B7917B123E11FA1898AF7CBBC3EEB2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use016.nss": {
+    "sha1": "F747F452BD0F44796BC4980E5815D7B3E1D55553",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cpo_use017.nss": {
+    "sha1": "29AD82DFB3C3C5232C0B92D9404F6C423C3F86AB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cqu_sign001.nss": {
+    "sha1": "04762DC9690FE482859BB5FE484B242443C19747",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cqu_sign002.nss": {
+    "sha1": "3DEE2AA09992387A092040A1710D78B040130402",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cqu_sign003.nss": {
+    "sha1": "3C077A1E72F50550D4945E500336AA417680D113",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cqu_sign004.nss": {
+    "sha1": "EC12095A9041AB10251D4B0331963A0EEAB9B4A8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cqu_sign005.nss": {
+    "sha1": "1D203ADC42BC4E54A741E62D2914C32D522CF7E5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cqu_sign006.nss": {
+    "sha1": "EF4AF51146490BF38C271B32E036053FE11DC6C1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cqu_sign007.nss": {
+    "sha1": "4DBD773411671D70C0F58233926C918A331D4D70",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cre_assign001.nss": {
+    "sha1": "2822833B95E0439B80179BDFBFD1E9AFFFD03D50",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_sign001.nss": {
+    "sha1": "7F83C4016F1F57EF29A29DB3C273F79D72272565",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_sign002.nss": {
+    "sha1": "0DCBE26396ED3A054D47CC2A1CDB545402250C08",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_sign003.nss": {
+    "sha1": "47EAF0DB679DDF8B37E114DF203ECC9BF1ECFCA4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_sign004.nss": {
+    "sha1": "928F665F5C8155CAB3D8E537CA01A043B005EA2F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_sign005.nss": {
+    "sha1": "1D203ADC42BC4E54A741E62D2914C32D522CF7E5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_sign006.nss": {
+    "sha1": "EB39C590D7A929D9AC36C2081869FE7FEC4E5D95",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_trade001.nss": {
+    "sha1": "77C643A5AAF1395B89BE525B35322A0A70A950E2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_trade002.nss": {
+    "sha1": "2EE45374E257CE47F20BF8DFC3A4B4C5E424DF43",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_trade003.nss": {
+    "sha1": "A248D269E405A9A35DA743075416B7822A58C291",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csh_trade004.nss": {
+    "sha1": "79302F95651885B4DB4D6E73A680555D16E5C02C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select001.nss": {
+    "sha1": "E1B759197E0F26E91C3B360A176ADA519132138B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select002.nss": {
+    "sha1": "720B04C3E9FDE2B9BC6761C26F10B595E0FF5EEF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select003.nss": {
+    "sha1": "E1B759197E0F26E91C3B360A176ADA519132138B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select004.nss": {
+    "sha1": "AC8927331CA28305C09B5ACBBBD0CFFC08E25764",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select005.nss": {
+    "sha1": "B148DB9CF99B8BC2573C6C1B30EE0988C764F4D1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select006.nss": {
+    "sha1": "28766CC2DD4E0BF99598A194318502936F5E3094",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select007.nss": {
+    "sha1": "B148DB9CF99B8BC2573C6C1B30EE0988C764F4D1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select008.nss": {
+    "sha1": "B148DB9CF99B8BC2573C6C1B30EE0988C764F4D1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select009.nss": {
+    "sha1": "CFDFA3C388B19839647804629704A206458DD994",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select010.nss": {
+    "sha1": "CFDFA3C388B19839647804629704A206458DD994",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select011.nss": {
+    "sha1": "5B50FF209C014B12A553E4CB8B4D8E61611D237B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select012.nss": {
+    "sha1": "5B50FF209C014B12A553E4CB8B4D8E61611D237B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select013.nss": {
+    "sha1": "5B50FF209C014B12A553E4CB8B4D8E61611D237B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select014.nss": {
+    "sha1": "26A0D289FA738EE87DF1BA71F68778A857AEC32B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select015.nss": {
+    "sha1": "BCEA2F3603AEE462FF6B8E32A3AB9CF2DEE4B5C0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select016.nss": {
+    "sha1": "BCEA2F3603AEE462FF6B8E32A3AB9CF2DEE4B5C0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select017.nss": {
+    "sha1": "BCEA2F3603AEE462FF6B8E32A3AB9CF2DEE4B5C0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select018.nss": {
+    "sha1": "BCEA2F3603AEE462FF6B8E32A3AB9CF2DEE4B5C0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select019.nss": {
+    "sha1": "299BD55DC200304F42944AF7EDD533681EF1C7BB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select020.nss": {
+    "sha1": "000A0D6D75C8BD37E9BE24E02C4EFB2B1BE7D742",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select021.nss": {
+    "sha1": "C993BC788115211DB609A3BCD1031171D6BD983F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select022.nss": {
+    "sha1": "2B958B8FB8779AAFC457556B0851174032E4BAF8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select023.nss": {
+    "sha1": "50897E2D5070E6F0547B582EAC336D5D08443CAA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select024.nss": {
+    "sha1": "05E5C15CA26347CCEA02305C3824D20D5C479809",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select025.nss": {
+    "sha1": "760617361AAD83F9782B7421FD805B0F7217B19F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select026.nss": {
+    "sha1": "3F46D719DD60502DB5F58AE15A61E18E3E01D38F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select027.nss": {
+    "sha1": "FCA65D25129E60471A70C5F4ED77C264BE9AEA21",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select028.nss": {
+    "sha1": "026A974F9F0BF74EB697F4B5972E72A2802FB2BE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select029.nss": {
+    "sha1": "9FDEF635C5CF3C4BA5B90579D19FECD6B50D4092",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select030.nss": {
+    "sha1": "5E07F7800B2B9770F1F7FE7E6AFA180F76D8E2C8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select031.nss": {
+    "sha1": "8A98B1C08239E25C09568AAAD70E7E4108B7F30B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select032.nss": {
+    "sha1": "CCCB604670097AAFFAD99F0A58599A84C73565FF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select033.nss": {
+    "sha1": "21C794CE3F05C6BAA7D5074E6F41BD463CAC1547",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select034.nss": {
+    "sha1": "0686E971B5FEF45ECCE1A72036FCEB76204778DE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select035.nss": {
+    "sha1": "ACBD98C63D6EE4EE3AAA96BF1A101B1690BC8B79",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select036.nss": {
+    "sha1": "E78FAB29C0FDD25B5D4BF1F6B076DB8B513CC245",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select037.nss": {
+    "sha1": "C956E77DC449170CE801A18F8DD215A3A0AE30A8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select038.nss": {
+    "sha1": "C7BF28AE426EEE1439DBD07861422E6C4E5C1157",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select039.nss": {
+    "sha1": "D56BA443BA4F6DE040C9EF221AA54A97091D6A5E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select040.nss": {
+    "sha1": "66C04D41562142D56E87D68CE8C1AB5E0F7B973A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select041.nss": {
+    "sha1": "45253F7B3B2D93C0CEDBD186032A4E9178F76131",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select042.nss": {
+    "sha1": "5B50FF209C014B12A553E4CB8B4D8E61611D237B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select043.nss": {
+    "sha1": "2A67A9F6AE064C0A89535A7B640E60FF60D55FB0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select044.nss": {
+    "sha1": "5B50FF209C014B12A553E4CB8B4D8E61611D237B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select045.nss": {
+    "sha1": "BB25806B4978A34ACC44B52D00F64591E2819DCB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select046.nss": {
+    "sha1": "E375425FBC919AA9355D73EDE0871EFA4B63ADB0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_csu_select047.nss": {
+    "sha1": "95991C5864A778951F4A3E7E082BC269C70D571E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_sacr001.nss": {
+    "sha1": "92643C459D99C44B7C81231678DDFDD56B21A544",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_sacr002.nss": {
+    "sha1": "E7A3485FA38EDA28A1C782FB85D7B033EDE8B0E5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_sacr003.nss": {
+    "sha1": "832BC2CF005DC2B94D31C509BC3431B373CCAA70",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_sacr004.nss": {
+    "sha1": "6595CF849A6C437CA9DAD20F364FBF7E5EA3DE33",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_sacr005.nss": {
+    "sha1": "7BA844CEBA3846F0CCDF8BF1BDF4FC5354CBC513",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_sacr006.nss": {
+    "sha1": "60AF0D0FB329BA2A3C8932B0CE89DE9EEBF3095E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_sacr007.nss": {
+    "sha1": "B4CB13B4973B929C2C122D42D78B6CCA95EAA5DC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_sacr008.nss": {
+    "sha1": "ADEDCA7C6B89F105A19C906D4E6E572C04398222",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select001.nss": {
+    "sha1": "4D177165EBB0EE83F775C6DBFD3AEF044855A4E5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select002.nss": {
+    "sha1": "ED891B7B5D49C397EC92D1C4DDCAEE865E696B0B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select003.nss": {
+    "sha1": "5797F544CFE7E40140B16FF0BC13A90B642A508A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select004.nss": {
+    "sha1": "5615C45EF0240C060DF0D2D3975D03AE7E9908EC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select005.nss": {
+    "sha1": "8A28BFDFC9E458630DF7535EFE2B8238E8FC7C82",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select006.nss": {
+    "sha1": "2923B24D487C71D2E119B67ABA5F77CA913B90AA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select007.nss": {
+    "sha1": "D59FE1D42DC9F2693C6A851A5E31EA5148DC677C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select008.nss": {
+    "sha1": "0C7666DE915C639659B27CB549F719D80EB77C5A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select009.nss": {
+    "sha1": "F4989E5285E4C7DCE298F0F9C09E308421D01E55",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select010.nss": {
+    "sha1": "E8F0B7F506D4008B07D9933B5D20009630C2F7DB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select011.nss": {
+    "sha1": "A97449EB3E87299A512E7A0A1DD909898532E4E0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select012.nss": {
+    "sha1": "D65FA394719842126E2CCA3B64D1AD3F0F1D70C9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select013.nss": {
+    "sha1": "6225ACCF489703B73BC7E39FC0C80B0DD0E1CC35",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select014.nss": {
+    "sha1": "345A198572B3703717EE35ED76AA030CD7651886",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select015.nss": {
+    "sha1": "97CFEF12648604380405DB2D2EFBD31A1CFCD062",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select016.nss": {
+    "sha1": "7A3BB5A600A74356E07ADE8032D6AAAE3E4EBF46",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select017.nss": {
+    "sha1": "30EACB473A4A4FE5105F97A9495C7367ADD0FD19",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select018.nss": {
+    "sha1": "91D5BECD3A483434ECF6B5BBFB5D189B59FA8977",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select019.nss": {
+    "sha1": "314C6C800C97C6CE82A3AEBA01D1409D1C5990EB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select020.nss": {
+    "sha1": "16152187AA8FE92F291D17F45D5449FF7ED1A308",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select021.nss": {
+    "sha1": "6546620A78DAF428F42E0E1F94B25C7E8CB8B040",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select022.nss": {
+    "sha1": "53497D8099F8D084276A739208BCD4F312F1DC00",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select023.nss": {
+    "sha1": "FDA3E19EC75D09EC12652B385F593D4D1D48EEFF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select024.nss": {
+    "sha1": "F12E166B7A7409A5522B96BBFAC1C2542482BBB9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select025.nss": {
+    "sha1": "4D6FE77ABF1B55CE9CFC15A6921AFE7FBDEEB988",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select026.nss": {
+    "sha1": "E514280044471AD9E4860BC8D3A677EFCAC74F5D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select027.nss": {
+    "sha1": "D889D70A5E971188D028AB597FC03473DE18C3C5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select028.nss": {
+    "sha1": "321E877943344FEAB39E1A88C3E95986D102E845",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select029.nss": {
+    "sha1": "EC41EA8137435F80CDFD6B5551E7E0C6DC0461C3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select030.nss": {
+    "sha1": "CE53A8A004A0D95B54B103F7401E4BF3254DC0CD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select031.nss": {
+    "sha1": "1DE7E663A9519BC33DAA11AEC12B40A87842B228",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select032.nss": {
+    "sha1": "431A5FFA596443A5148841149FD65A2D0BF8BF4D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select033.nss": {
+    "sha1": "167BAFFE9EF4D53939BFFB9263FB7F6E3DD6D913",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select034.nss": {
+    "sha1": "BD058C79AE39822BF1767E84C5A30B102026739E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select035.nss": {
+    "sha1": "D823B62985168FB06F1737D32D052D334DF78020",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select036.nss": {
+    "sha1": "4E3136C72086C9F391C8A6D17C0B95552260A412",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select037.nss": {
+    "sha1": "13F2944D001392969352C03A920CE58D682CC174",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select038.nss": {
+    "sha1": "F1C6D9543302A9E1DA4373B0EA635CF47F84C44F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select039.nss": {
+    "sha1": "35434DA6F660EB6BCBDF599ACE8AF9A2180C6CE3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select040.nss": {
+    "sha1": "F815DBA2B65B7A996A9A4A4B2F8CC6ED7206AEEB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select041.nss": {
+    "sha1": "1F2C8065BC1615D898C47B4962C87CA55B62882C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select042.nss": {
+    "sha1": "517984ED16E77C89C7130510F6917C48765FBBB9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select043.nss": {
+    "sha1": "A6E712590F198811F60FAC2EDB0B09DD28F13FF9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select044.nss": {
+    "sha1": "2B7CFF7EACDF70CD2C85F6D1D642DB378782A95F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select045.nss": {
+    "sha1": "147C15D2CE4E7DC7CF9A9ACFD0F4F613BABC998B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select046.nss": {
+    "sha1": "8D1FBD0578B558C9C7B9C9C68B512B2CF9D468AE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select047.nss": {
+    "sha1": "E41D9A46B2D6E947A88E5C8F2FA8C4FA1AB27CEC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select048.nss": {
+    "sha1": "3B340E7AA2CA714A6461CCFDE57AC8485B59ABC3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select049.nss": {
+    "sha1": "1D7B1EE83D992EEF7669EE372F0E23E0E9D59B57",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select050.nss": {
+    "sha1": "BD3916277607858FF8BF7D4FDD00FF32101A3974",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select051.nss": {
+    "sha1": "DD9AADCA986CB4CF8E38FF59AD8B54EDF79FF1E4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select052.nss": {
+    "sha1": "9266092B2D42E58A86FB551CB8252C2CC44A2B89",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select053.nss": {
+    "sha1": "FB3AE882CF5040F8311EB831C4EAFBD89E082C52",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select054.nss": {
+    "sha1": "DD943084B1934AAD14D5EA813C02832FFBA8EC83",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select055.nss": {
+    "sha1": "1F7F52192F87D142AA242730EF2FB4C315402096",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select056.nss": {
+    "sha1": "2C7D0811A5BEA9E717D8DD5C328B2FA62804D81B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select057.nss": {
+    "sha1": "431D73AAD3CF966731FECD74B2ACDD90A6A3A63C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select058.nss": {
+    "sha1": "6828572A6E03D56AA7F4EEB901014BCC35668AB8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select059.nss": {
+    "sha1": "48551EFD1D17AFFC1FBD73B0A4F8FA12D3847CFB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select060.nss": {
+    "sha1": "CCD44D11E46CE82B9C2480089D2BA3F1B065F43B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select061.nss": {
+    "sha1": "D9E07B834574878763A3E9937A26E70F989728BF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select062.nss": {
+    "sha1": "C80AE3ACEA9FC5CF01DC2C544F19DA22C8C00BC0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select063.nss": {
+    "sha1": "FB9EDD070E033A8CEF023AEA16977161381C3059",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select064.nss": {
+    "sha1": "CB47FA4AA9ACFDB2F2AB11C2B9D2B40FDE5569CA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select065.nss": {
+    "sha1": "6D58B855AC8479ED9B8B0AB0250A373893B46D96",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select066.nss": {
+    "sha1": "332FA3D6925948B3135996E8DB81E7DE2A5024A2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select067.nss": {
+    "sha1": "BE895A0503FEB3847420DB417774BBF60D7C6E83",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select068.nss": {
+    "sha1": "01B938A4296D973D92CD287662FDFC58F44F6740",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select069.nss": {
+    "sha1": "9A9E25A96CD109AD1E97B41F275A74679568B1BF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select070.nss": {
+    "sha1": "A06A9F5AE331ADC13CE101BAFFF38347116CEEFB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select071.nss": {
+    "sha1": "EEE17BBF979E1871B27D40C65382EC1F19FAD3C2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select072.nss": {
+    "sha1": "514BD81EE4FBFCD20C9034A22E7ADA40BE4106EC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select073.nss": {
+    "sha1": "7E0C60706F19B0AE37D4D5BC96A2FDACC8DD02D4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select074.nss": {
+    "sha1": "E10AD59279ABCF40A0FD565EBEDCA3BCC7AB4DDE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select075.nss": {
+    "sha1": "C41ABCDE6EB5F416756B6ED8984718A7ED4CA284",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select076.nss": {
+    "sha1": "3C1552C0A742CE004C9C054728DB56CC458EBDEE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select077.nss": {
+    "sha1": "14484F833891E5B6C6F0994F5FAFCCFC17A1784F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select078.nss": {
+    "sha1": "A5BEAB7631CBCBA8384C8A296AFC9F4CE67187BF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select079.nss": {
+    "sha1": "495BFAD8287FEA56D3D6C2D7A53ED4BF1B7A26C3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select080.nss": {
+    "sha1": "6A6AA4EE898B3F12187972C00237BD5420C0DA73",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select081.nss": {
+    "sha1": "0DEE94C3A72555F71CA9DDB00EA24B22A0EEEDAB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select082.nss": {
+    "sha1": "E7B00629879C0254F374AE243E9DFC003B7B9536",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select083.nss": {
+    "sha1": "BF812283AD79725D6887A113C5CE58E06C7CE246",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select084.nss": {
+    "sha1": "FAD2D2D48F3E19CA305210499ED43473A4F96583",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select085.nss": {
+    "sha1": "4FA6C29587A0771145535F606EF5349DADB4C9C7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select086.nss": {
+    "sha1": "42A4B4E632E56D552C6333D35F55C8BB0873EBFA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select087.nss": {
+    "sha1": "CEC19A8E33D7A85E461F9AE2010A0D03716A0320",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select088.nss": {
+    "sha1": "0D9EAE8C859675C7B2FE6F5BDF894DDB242940E1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select089.nss": {
+    "sha1": "778302D2B8CCEC7FF8D6593E010EBC07981EAB63",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select090.nss": {
+    "sha1": "3C9B9AD176BECB011D7EEBEF9D2FB380340E2CEC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select091.nss": {
+    "sha1": "F42DBD69372AFA46200DD0260751A4B1B7D044DC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select092.nss": {
+    "sha1": "022A428B05F4BD6826B1EAD651F11160CF5FCA5D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select093.nss": {
+    "sha1": "BA66C900B14F0380FFAC9F6C687DEB5BF480AB8A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select094.nss": {
+    "sha1": "F578C542C20DE1BB3FCFCC66B7548D1C97021BE6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select095.nss": {
+    "sha1": "B765433D61C758D0D7128EA6FE08B78D231DADC4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select096.nss": {
+    "sha1": "8DB06AC0BD4AD4FCB401614892D4EC446F3069F1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select097.nss": {
+    "sha1": "78EF4912C1758E9FB7E8B0A180A4F8CF5B9F05BE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select098.nss": {
+    "sha1": "2E33E6D5E32F20A8DDD7BA381173F408FB29960D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select099.nss": {
+    "sha1": "797381CC947BD6F578354D3A3FE3952498CF12A5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select100.nss": {
+    "sha1": "CCEAFCD03B9D6FBCC3B4E8811D527E75B948410D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select101.nss": {
+    "sha1": "91C5FE164CE55B64F424D5DB0EA82EC966F7652F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select102.nss": {
+    "sha1": "A4713A8A8A08453CF0627296801D6331B7E09B35",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select103.nss": {
+    "sha1": "3AE82B722065ACDC657AFBB4DCDC27877CF4D7CF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select104.nss": {
+    "sha1": "9054B7D841C0E630795E70C601CD9865D9AC4B9C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select105.nss": {
+    "sha1": "B3CBE2DF722414088014B2BB4633056865008397",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select106.nss": {
+    "sha1": "BFA9645EBEABBEEC47A6741F81ECA8248AD2BC55",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select107.nss": {
+    "sha1": "2CEFB452B759DAA9C62C938AB6EE633333D17387",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select108.nss": {
+    "sha1": "D11CAD94BF372ABC9D5BC41B643443C088889013",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select109.nss": {
+    "sha1": "5CBE5C4E135499995490EF17B91A6B6C7301DBA9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select110.nss": {
+    "sha1": "46ECC57B564DA0C2650226D0DD9E08E7702F4AEC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select111.nss": {
+    "sha1": "DFE96EA972B1E46E1445BE94A4375475CBA84317",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select112.nss": {
+    "sha1": "6ED90BF5B52E2B49D3DF4A57524524E08EC98CDE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select113.nss": {
+    "sha1": "0F470237D62E96410C22A53C5686FB159F2430BF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select114.nss": {
+    "sha1": "60BDA0F3868A898EC27D8E5FCA536695326238C3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select115.nss": {
+    "sha1": "4C926ECA78EDAEE4BA6A08343B275421E29B50BF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select116.nss": {
+    "sha1": "CB15579D39AEE18C90DAAE904404584314914375",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select117.nss": {
+    "sha1": "725593C8C2369F8074B3BB68A12A7268FF435865",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select118.nss": {
+    "sha1": "29D81E54D168655A2D1D3715621E1DE271E43AF2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select119.nss": {
+    "sha1": "2B7CD0DF56CD9B135142D997BBA8B0932444394D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cwo_select121.nss": {
+    "sha1": "281E1BBA67D157A8A865E7D4747353E15944BF24",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply001.nss": {
+    "sha1": "E1D9749B014233CD10267AC99CAE8787EF5329C1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply002.nss": {
+    "sha1": "B1B3DFEC6F09F1FEF1526C8E6A920C639E7E200E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply003.nss": {
+    "sha1": "FAC7C121DC2E290AC2D21187E5446F3915DEA6AC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply004.nss": {
+    "sha1": "6FB2DB39ECE49BD115BFCB121E1C1E10F9FCA2E3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply005.nss": {
+    "sha1": "4E0813373FE31BF01C67448E09B862AB137398C9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply006.nss": {
+    "sha1": "59E50DD5F9483D2DD19906BA5018774CE8692E20",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply007.nss": {
+    "sha1": "F074DD6820C9242D949A03830E766937AE99579A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply008.nss": {
+    "sha1": "FC3CEC857D5A82E9C1CC319FB8996B8C5E5EC7B1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply009.nss": {
+    "sha1": "F9D87FCFE53D1D60A3423DC2A091135FF5A0F9DE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply010.nss": {
+    "sha1": "FE3D77F95D7AE3190EDD3F2FF028EDD8796CD844",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply011.nss": {
+    "sha1": "1AE3BDB9B932DB38FED1CC8AFEB0591E6132206C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply012.nss": {
+    "sha1": "4F67B7E3BFD4AB03686C840BBB8D942CD022040A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply013.nss": {
+    "sha1": "6722BD3B33F66BFE846806A529F665440F0464B3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply014.nss": {
+    "sha1": "70B53836560B7F6A4621277C313F36466F8306A4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply015.nss": {
+    "sha1": "AC8A3BDD4E786E7A7815A233D2E84C07C6EA2D26",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply016.nss": {
+    "sha1": "C9402B6CF742BE13C816D901266351EE32291154",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply017.nss": {
+    "sha1": "688DA83FF58767ABD5810E7A98B73E9EB4991B1A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply018.nss": {
+    "sha1": "EA9D78CE96D5FDA4416EFDBEDBF20634C7AF93E8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply019.nss": {
+    "sha1": "42EE9D2510F889C70696B1621DB51338F52D6E39",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply020.nss": {
+    "sha1": "7196D8B974BD9393A676C973D9E04CD8C3E74601",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply021.nss": {
+    "sha1": "838AE76AAEC1193A91F138F8B63983A68C3F1012",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply022.nss": {
+    "sha1": "6784E30A49DD45190053086AF4D1A48F144F7F73",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply023.nss": {
+    "sha1": "58B47451CE0A8C115E60AF4D7AE3D339A67ACAE1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply024.nss": {
+    "sha1": "AFF1E910AA391F39A8539234BE5A5B0952729C29",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply025.nss": {
+    "sha1": "3968BC2672E2E2A11ABB25D3BBD48B3C7553E2B0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply026.nss": {
+    "sha1": "0C6BBE9E8A94BB6B2384DA98B2BEBC7ED78616ED",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply027.nss": {
+    "sha1": "18F7E9575D6FF24BE096D9413C819A2499ED0695",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_cxp_apply028.nss": {
+    "sha1": "9B2440706DEFD0D82A65520B78DAA9539DCFA0A7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_fl_area.nss": {
+    "sha1": "9185015AB569BF33A85ED754EFD179A2D6712625",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_fx_close.nss": {
+    "sha1": "393E9A94FD66924E39A8985DA5B2FC9016DFDEB1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_fx_death.nss": {
+    "sha1": "EB847B7628F9E109D66A02F509DCFB523E6D2F14",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_fx_used.nss": {
+    "sha1": "4DA93DBCC42F54DC26CB2D24FAE3E44DC444C21F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_campfire.nss": {
+    "sha1": "511BDEC48978E337FF0562BB1BCAC28AA04E22BB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_conv.nss": {
+    "sha1": "45999D37195BF587718DA381D6D39C5971732BD4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_life.nss": {
+    "sha1": "A9D046E331DD7F5ACCC1602E9CEABCCAEFD81507",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_light.nss": {
+    "sha1": "337F8158BA2725C194F1C2FE4D710B68C1A86A71",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_lock.nss": {
+    "sha1": "BBF95C51CC51532C7EB2E9ABBEAABCC3E61C4905",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_sit_chair.nss": {
+    "sha1": "995F55C2F77E80108B88AD4501C5126126EBA067",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_sit_floor.nss": {
+    "sha1": "E9755140903ABCE849CF09D9DAAF81E0E74A20CA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_spell.nss": {
+    "sha1": "9CBB605F2AA0D9F159589C638426EA0FFFA15F12",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ia_time.nss": {
+    "sha1": "BB04BBB252C48C368FA0EB89DE26D18F53FE72FF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_ai.nss": {
+    "sha1": "6416B7ED47A02EA5AF697DBF1868D2CFC7F0BC2B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_area.nss": {
+    "sha1": "7DC555A1CAFAD44ACEA678C4F3A76A50D97E20FE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_chain.nss": {
+    "sha1": "BCD84C4BEC94C096BE4EAF8A92E47B6EFEF29A97",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_class.nss": {
+    "sha1": "8C160562865248F3493917BCBD4DC72B34ED03F4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_combat.nss": {
+    "sha1": "339F9AF183B962264362882BCD9BB4DFC8741FC4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_combat2.nss": {
+    "sha1": "A4A8677279F5F99C1CD052F93BC2EDEA68315A84",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_combat3.nss": {
+    "sha1": "A97B9E9CE797BEC4C55AD89151EADED502AF69D1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_common.nss": {
+    "sha1": "36A6A685DD8D4C8BC555AAD81715873A4AFB6AFB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_container.nss": {
+    "sha1": "A3C6EE74D1E6B99D2F9B9B52D4660E62FFFC4A02",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_craft.nss": {
+    "sha1": "28012D52563B75969FEBCD8483134D19B574F5EB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_effect.nss": {
+    "sha1": "148F5A6F06C5F7A214C8449C7837AF44A4ACA821",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_encounter.nss": {
+    "sha1": "4872DADF83C986F9B201F7C6BD6FEFA69DD2BD2D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_event.nss": {
+    "sha1": "9FCF96D79EEAEEA1E440257F219352F85A45A9CE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_finance.nss": {
+    "sha1": "B539815FBD8AE5F5566FA26F1C5C5D2C20550BCE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_fixture.nss": {
+    "sha1": "E533F24E6FAC04E2A7801A38D9F98B4778FB888B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_flag.nss": {
+    "sha1": "C7DB595F965CA1869BB9EE56842913A20FCE80E6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_forum.nss": {
+    "sha1": "346A32545805D7917F8457BDEEC41B38F17DFE71",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_greyhawk.nss": {
+    "sha1": "ACB0D2EA50572BEC8379393421D3ECA767AE0E91",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_iprop.nss": {
+    "sha1": "4B4BE2A1E3D64AF2D4A498D2786800367ECB13A1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_language.nss": {
+    "sha1": "7FDE74209A0D88080880EECD725049E49B575D62",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_listener.nss": {
+    "sha1": "21332A54C70DC590FEEDCD5416B3D5B650A42F8F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_location.nss": {
+    "sha1": "CCE2F6E09A3A18F00C7B3BCA634A6785CFB8CABD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_message.nss": {
+    "sha1": "BCA023E3570CE59D904F47D022E6D99F8C5FB959",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_pc.nss": {
+    "sha1": "CF933E27447D2FF6521225CB9A346B98E7F5BCBB",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_portal.nss": {
+    "sha1": "756155A8EB07880F721FB09D66C6638B2B110395",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_quarter.nss": {
+    "sha1": "586ECC7309D734AAE4B91908802C4E5FE79B9D58",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_respawn.nss": {
+    "sha1": "57A97B17D9333F5964BED2FFE6A3099DC926865C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_sanity.nss": {
+    "sha1": "D51E9449C32B1B2AEEBA75FCA98D134FC2651603",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_shop.nss": {
+    "sha1": "A484C0D4447BDA1AE37365AC4321F180EEFBD0E1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_state.nss": {
+    "sha1": "4CC38C24427CC17849F55C743EA297AA917C2B8D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_subrace.nss": {
+    "sha1": "80A806159D244CA4052C6742817DDD939B0382E8",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_task.nss": {
+    "sha1": "B90AA8F24FC7358BA28A32B4A92F17ED073DC964",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_text.nss": {
+    "sha1": "36CD6A2ADE4154C120595E8DB1928405DFACC49A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_text_de.nss": {
+    "sha1": "3E9987446CE38040D90443B0A2D01AE23D26B879",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_text_en.nss": {
+    "sha1": "99BCEFC9CDDBA82FE5AC06DC7EC9AC08E4981F6B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_time.nss": {
+    "sha1": "334677D482FD480C253C359D5E788FBAF5F1B1EF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_torture.nss": {
+    "sha1": "0D5A1245665DEE7004FCFC85F2381CDF7BE61DF7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_waypoint.nss": {
+    "sha1": "59059383C32C2197AAC61DE377F07C66B6538DB5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_worship.nss": {
+    "sha1": "007B842D70ACA9A82ED2F0C1D628964ADA138333",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_inc_xp.nss": {
+    "sha1": "15E654CD7DF1BCC578C094DF4D1DD10D463F02E9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ip_close.nss": {
+    "sha1": "1EB5B74B26A51FA3A7D64A9C63CE4AF10462E089",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_li_conv001.nss": {
+    "sha1": "894A47586ACBA72588160CA49CA8736681CC48B4",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_li_conv002.nss": {
+    "sha1": "D1947DB868EE2B5FD70387795275DC67A7F484E9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_li_spawn001.nss": {
+    "sha1": "E618F43C0471BAFE8C04A7B8606783C35C46511B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_acquire.nss": {
+    "sha1": "2A891374EF37E5ED677F87AA3B76B4E299D1470F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_activate.nss": {
+    "sha1": "42320671BE4FF14DFC2DED6623CC03F13147FE9E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_chat.nss": {
+    "sha1": "14115797552CA7FEDA16944C7EC4A334F7146D36",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_death.nss": {
+    "sha1": "FA9E2C061D13C351D4C11401F4E7696E8D1C99C0",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_dying.nss": {
+    "sha1": "C171F4A6852A024168DCBF4ABBB215E9BC788C35",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_enter.nss": {
+    "sha1": "FE081D03B5A54FD5756C25C82B476669ADCCB8AA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_equip.nss": {
+    "sha1": "F4096A4A1C62C10448EF3BE2C1694E4801A62F67",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_heartbeat.nss": {
+    "sha1": "75F5181820B4BEA32848797B6748D4965B33B9B9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_leave.nss": {
+    "sha1": "AF434FBF828995F8B813670AA43F8D011DCA395C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_level_up.nss": {
+    "sha1": "82A91B26DD45F2CF4D7E482B151263079705BBCF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_load.nss": {
+    "sha1": "756348835C10E4B6A6F387A4B7C399C6FD399B6B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_respawn.nss": {
+    "sha1": "ADC83B19E793491B1C6EA0FD8B46CD9F32E592FC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_rest.nss": {
+    "sha1": "229D0239E0883681387A64A8A5B156B862865700",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_target.nss": {
+    "sha1": "B88A4E9695AC45496B130C24789C80FD2ABFCA67",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_unacquire.nss": {
+    "sha1": "C4B8C82B3E6E16EE73EB033778C6BAD54170E599",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_m_unequip.nss": {
+    "sha1": "CF6820D88B777B5F95C9AD0FC2D87DFFAA7D57CA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pc_death.nss": {
+    "sha1": "96E1D75D327E3A2A4F8076CAE7493F0DE3DECF5E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pc_spell.nss": {
+    "sha1": "338C8F54FFB5FBF06F217FB9B4C42C9C578BAB48",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pc_used.nss": {
+    "sha1": "A0A4A97887815769C1C07C967ED165065D990A4B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_empty.nss": {
+    "sha1": "AC8460443474337AE2A147DAEE8916DED66B9064",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_inv_nogold.nss": {
+    "sha1": "0F29C44CA0DB6A9FF98002F6537334219A158CE6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_inv_unique.nss": {
+    "sha1": "5954C23D9CA8D1D38295CCE5EAF3E87DFE489EDC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_inventory.nss": {
+    "sha1": "9B24DF484C4F5B5F9653AAAF22EC9BA4AB52EE69",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_lock.nss": {
+    "sha1": "C7E22C13A43A394B38C9463E1F9D1812075CF5EE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_mineral.nss": {
+    "sha1": "D50B4270BC51C2E7F154F064F9B2D84E4CF5C183",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_recreate.nss": {
+    "sha1": "306B740D26EA5D1B26924E6E7FDE3E16C59A9206",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_resource.nss": {
+    "sha1": "08930F6BB3868D46016C4D7BE6DCA3535260866B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_sell_gem.nss": {
+    "sha1": "CF88E3C998C8725FF64AFD3A6DEA355CDD5C4787",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_trash.nss": {
+    "sha1": "FB36C6F2BF5B93D72FFE89344743C81EC2A1CD4C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_pl_water.nss": {
+    "sha1": "3BB0598C3E389C0592D4311134B292744E09A824",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_qu_failopen.nss": {
+    "sha1": "C713F344134ACE95811D71DE290E24F9C6F35387",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_run_ai.nss": {
+    "sha1": "C5AD0E88861A8FD1393FABBBE698EB9D2292C8B5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_sh_close.nss": {
+    "sha1": "89209C879B1C8AB3E3F2B14C7EB8AD8F34418655",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_sh_disturb.nss": {
+    "sha1": "957AF5F29580C81C780D651D4433840791E1DA07",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_sh_open.nss": {
+    "sha1": "B880E6C9E2B18479171F7D523203307B78E5C12F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_spellscript.nss": {
+    "sha1": "1C39731215CC058C22BBD2C03B368F964D26DC1A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_ta_anvil.nss": {
+    "sha1": "818D9FEAE6190E0523925C11CDA9DBDF2FD5693A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_time_advance.nss": {
+    "sha1": "53EE40712F7A0B706FF032C960C5CFCDD9825F87",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_tr_beam001.nss": {
+    "sha1": "9FB922A8CEDE55DC415538DA1A9569F89D5B9BA2",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_tr_beam002.nss": {
+    "sha1": "8DDDB74DE86E354E456D072C51A17FA8664BF1FF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_tr_beam003.nss": {
+    "sha1": "DB2C4BEE97D5B762CAAD0D92400AF91F2968B15A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_tr_conv.nss": {
+    "sha1": "5D4725FC3293D5EE878372CEB6C8283F79497187",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_tr_reward.nss": {
+    "sha1": "2D79E582E5FDC397E8C18DD2E62C401EAB43F65F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_tr_transition.nss": {
+    "sha1": "C5ABCFF1BA3E2A0813E27A9D30D49E8664926280",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx001.nss": {
+    "sha1": "377610BB65BC1511C2BE3EEFD4E69C32315FC664",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx002.nss": {
+    "sha1": "414238C5700CE1DF65CFE6C4358007238452F17E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx003.nss": {
+    "sha1": "2BC7567BAFC32122476D8D127E1CB9B8B0507580",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx004.nss": {
+    "sha1": "74BE9F2FD2D98F49474C0A118C64DE77D7ED0BDE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx005.nss": {
+    "sha1": "DC165A334ADACF7F32C24134C2EFA62F7AF3222F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx006.nss": {
+    "sha1": "6E58625DA5B30C149034D744628CAF0E5E221044",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx007.nss": {
+    "sha1": "F5AE4A27ABF0E253699C5253C675CCB3DB7A1CFC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx008.nss": {
+    "sha1": "940F8AF3B9C58C40CECA808330BD36548C63FE16",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx009.nss": {
+    "sha1": "61CBA3D1F6B9862B3622F55664AE9F7904C0FF1D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx010.nss": {
+    "sha1": "98C6F1F06D76F7F44AE71299FE0D23D5A69C055E",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx011.nss": {
+    "sha1": "07E7458F369AAD09C8E3A63ADA7D825FBCD7F3E1",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx012.nss": {
+    "sha1": "E51DEAF08CF310A185407CB4FC49E0C923A7B324",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx013.nss": {
+    "sha1": "8C6B986AFE3F014660BB7B283C34C8A71666A104",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx014.nss": {
+    "sha1": "841168229CE20E01932AFEBD428826508EF1E501",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx015.nss": {
+    "sha1": "8C45184518EE1792F2E9E16B303837DDEF6C594C",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx016.nss": {
+    "sha1": "DD157E4C0CB9273BE9E76FA9ABE2024C4179DA3A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx017.nss": {
+    "sha1": "B0EE0706E1A7FD47AADCAF034834F8A0C37C97EC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx018.nss": {
+    "sha1": "46CFD9928E3A1FE3A213E38F6A9B92EAA5D86F27",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx019.nss": {
+    "sha1": "3DC0935B8F67C0D3A109E1EE2DF1722FBC00A1C3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx020.nss": {
+    "sha1": "D8AB51388B38FE23B8646ADB7F145D2EAD6760D6",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx021.nss": {
+    "sha1": "80BE81B0918AC24B6099B317B600FF132DF1F3E7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx022.nss": {
+    "sha1": "7D0C479BEE1412EAA18852ADBE3E5434CE3461F3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx023.nss": {
+    "sha1": "4CB5FAC063A875E2C42C43AE1074BD58BA1EDD31",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx024.nss": {
+    "sha1": "DD64498F4CC2F4A309D088A25193D7FC25413CB9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx025.nss": {
+    "sha1": "45EE1885487C98E437E5134EA9DE7D25A118C040",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx026.nss": {
+    "sha1": "ABA58923AB13131EB975572E4EB9A5B0FADC1C0F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx027.nss": {
+    "sha1": "FD5111FDF3397F7C3CA3A6CD0BAA984CF4850331",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "gs_vfx028.nss": {
+    "sha1": "EC46896C3EDB7036CB9B6786CF277A7F72A80E22",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_bat9.nss": {
+    "sha1": "2F4ED1B7FDF561525F04196FB421ABB784E5E49F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default1.nss": {
+    "sha1": "3306E16EE829AF47353F0D92B7A43ED6AA638A7B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default2.nss": {
+    "sha1": "04BED8A7E1939600FAD0C95594DB0ADA0B8353D3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default3.nss": {
+    "sha1": "C3C54B23914B218CCFA504CAC20169CC3F210BDE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default4.nss": {
+    "sha1": "1E323E09801DB8A7C53193D228A98D010B8289E7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default5.nss": {
+    "sha1": "001AC383D65A578104617C8F62B50925AA2248DF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default6.nss": {
+    "sha1": "C656A3A7CB7DED08FAD59D9E67A170642BB140AF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default7.nss": {
+    "sha1": "08D8B660F19B0CF884D03A082FFA3EE4F100A5FC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default8.nss": {
+    "sha1": "7BEF51E163123480E9B94CE54B74B637E14EBDDA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_default9.nss": {
+    "sha1": "2F4ED1B7FDF561525F04196FB421ABB784E5E49F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_defaulta.nss": {
+    "sha1": "FCA0BC2FC7BA02DABF1ADD3DBE52029523734BC3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_defaultb.nss": {
+    "sha1": "62D12F49BA13D6EBB4C36F052723AD88A3FD8F45",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_defaultd.nss": {
+    "sha1": "7D5E1C6F315306FA968CCDECA0C7375AFAE88232",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_defaulte.nss": {
+    "sha1": "F87D4F3D3AF63A133E4A8FDF51AD468FF8F6848B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_dropin9.nss": {
+    "sha1": "2F4ED1B7FDF561525F04196FB421ABB784E5E49F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_gargoyle.nss": {
+    "sha1": "3306E16EE829AF47353F0D92B7A43ED6AA638A7B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_herbivore.nss": {
+    "sha1": "2F4ED1B7FDF561525F04196FB421ABB784E5E49F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_lycan_9.nss": {
+    "sha1": "2F4ED1B7FDF561525F04196FB421ABB784E5E49F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_lycat_d.nss": {
+    "sha1": "673DD57ABF07EC404976306127F9EF2602F2570A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_lyrat_d.nss": {
+    "sha1": "37083EECD4BB8713789D266AFA95D56ED5A30298",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_lywolf_d.nss": {
+    "sha1": "609AD92E7857343D25412E4F3AB3258A1A9D92DA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_omnivore.nss": {
+    "sha1": "2F4ED1B7FDF561525F04196FB421ABB784E5E49F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_stnkbtdie.nss": {
+    "sha1": "E23CAB46FD6DD0F310A2BEC65C0DD46057D9AC2D",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_c2_vampire7.nss": {
+    "sha1": "08D8B660F19B0CF884D03A082FFA3EE4F100A5FC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_s0_raisdead.nss": {
+    "sha1": "0D13DF3B27CB01940ACBF552CB34277AAE3D8B35",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_s0_resserec.nss": {
+    "sha1": "B5BEF625DF71DF4F34E312727EF733C4F897D0EC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_s0_timestop.nss": {
+    "sha1": "82299D3A3E172F8556D8E0014A91143321559B64",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_s3_alcohol.nss": {
+    "sha1": "402B7F7FCAE69BC4AA6F8DCE2DECEDF160F4BB89",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nw_s3_balordeth.nss": {
+    "sha1": "219F5A299763DD1BACA09777EFAF28D49DB01E73",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nwnx_core.nss": {
+    "sha1": "AA9F092DFE08DCF599D2E4EBF4F5A0C7167B4104",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nwnx_creature.nss": {
+    "sha1": "96EECC00BF0303FA8F037D2D2AB8FB8BA959A4D9",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nwnx_feedback.nss": {
+    "sha1": "C7E0176190E576BE9C7D4C49845C530A551F155F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nwnx_player.nss": {
+    "sha1": "8A8747977C66C071A487B262ABD97FEAE2ECE882",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nwnx_sql.nss": {
+    "sha1": "D2846632BCE2052230857F8A599B1F1892F09A9A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "nwnx_util.nss": {
+    "sha1": "D08A24D2231C99CAB210CDBF0D47DB30A4A4F25A",
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_conf_orb.nss": {
     "sha1": "5CDB056EE5893253D86E0723430BA11BDCC8C265",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_conf_orb.uti": {
     "sha1": "7E6C06843E8B697383E17322D3C074DDA47A7587",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_inc_conf.nss": {
     "sha1": "371EB97CC817332C734E890EE35B527C7606148D",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_inc_json.nss": {
     "sha1": "D080432FDEAA1847C01E6B70776CDCD365884A0E",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_it_mbook.nss": {
     "sha1": "21E4A1D9D98EDDD61B512BBB6456CC5C201B400C",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_it_mbook.uti": {
     "sha1": "35B632DFE0E357E3302BF2BA82809ED3434D3DE8",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_mod_def_act.nss": {
     "sha1": "DA7A131B73E4F2AA13C66BF5E0751B7D58A3FED6",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_mod_def_load.nss": {
     "sha1": "9CFF3F4C4B45431379F2DEB6551CA0C06269898B",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_on_plyr_chat.nss": {
     "sha1": "8C9CAA179CEC9CE0F78D3A409D9D3360450AF66B",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_on_plyr_lvl.nss": {
     "sha1": "CC8FECE8F40343766F3E7EB597AAFB5AA1B38DCA",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_on_plyr_rest.nss": {
     "sha1": "7146817B8C2A719A45B1F6E6F2C9D3FF5E4C410C",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_override.nss": {
     "sha1": "22A7F411F543EE3051DF0247763164686BBD82D5",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_plyr_trgt.nss": {
     "sha1": "AB233B40243D8ECEEC22C75382372CA3EDE8D625",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_spell_hook.nss": {
     "sha1": "9867989D1E747F7D22818AA9FB7933B9D768D678",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_spell_target.utp": {
     "sha1": "79ADDE3696879DEB3240CB73F8DBB641AA73D723",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_tools.nss": {
     "sha1": "782623627A18CFE51C933FB6569BACEF4681F660",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
   "sw_ui_evt_handle.nss": {
     "sha1": "84F150557BB6E72876502589C672D7A4A56F0D36",
-    "modified": "2026-05-14T05:18:59+00:00"
+    "modified": "2026-05-14T05:33:14+00:00"
   },
-  "utl_i_spells.nss": {
-    "sha1": "61699C2A498802230780FFEAB7F863DB9DB663DE",
-    "modified": "2026-05-14T05:18:59+00:00"
+  "x2_def_attacked.nss": {
+    "sha1": "001AC383D65A578104617C8F62B50925AA2248DF",
+    "modified": "2026-05-14T05:33:14+00:00"
   },
-  "x2_inc_switches.nss": {
-    "sha1": "3916422F65F7DC960D049361538F9B01F9ABC3B9",
-    "modified": "2026-05-14T05:18:59+00:00"
+  "x2_def_endcombat.nss": {
+    "sha1": "C3C54B23914B218CCFA504CAC20169CC3F210BDE",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_heartbeat.nss": {
+    "sha1": "3306E16EE829AF47353F0D92B7A43ED6AA638A7B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_onblocked.nss": {
+    "sha1": "F87D4F3D3AF63A133E4A8FDF51AD468FF8F6848B",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_onconv.nss": {
+    "sha1": "1E323E09801DB8A7C53193D228A98D010B8289E7",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_ondamage.nss": {
+    "sha1": "C656A3A7CB7DED08FAD59D9E67A170642BB140AF",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_ondeath.nss": {
+    "sha1": "08D8B660F19B0CF884D03A082FFA3EE4F100A5FC",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_ondisturb.nss": {
+    "sha1": "7BEF51E163123480E9B94CE54B74B637E14EBDDA",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_percept.nss": {
+    "sha1": "04BED8A7E1939600FAD0C95594DB0ADA0B8353D3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_rested.nss": {
+    "sha1": "FCA0BC2FC7BA02DABF1ADD3DBE52029523734BC3",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_spawn.nss": {
+    "sha1": "2F4ED1B7FDF561525F04196FB421ABB784E5E49F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_spellcast.nss": {
+    "sha1": "62D12F49BA13D6EBB4C36F052723AD88A3FD8F45",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_def_userdef.nss": {
+    "sha1": "7D5E1C6F315306FA968CCDECA0C7375AFAE88232",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_s0_darkfire.nss": {
+    "sha1": "A6C0A63C4255D1AF066764A8D86C19AF8965DED5",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_s0_flmeweap.nss": {
+    "sha1": "22983E2803E16AF7CE0DE78F0193F8B553D3361F",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_s0_grmagweap.nss": {
+    "sha1": "2A6190597E4209CA5D5F45C6A99D682B60932D93",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_s0_holyswrd.nss": {
+    "sha1": "5242CB6166EF9E06393B669DF2C261D4A9FBFAFD",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_s0_keenedge.nss": {
+    "sha1": "57A42F90F812222F76BBAD898C6C1C1403E7422A",
+    "modified": "2026-05-14T05:33:14+00:00"
+  },
+  "x2_s0_magcweap.nss": {
+    "sha1": "9F9CD84BDDF1CB4FFEED32CD7C1DCFF0838D34FC",
+    "modified": "2026-05-14T05:33:14+00:00"
   }
 }
