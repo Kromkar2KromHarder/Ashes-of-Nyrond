@@ -1,0 +1,82 @@
+{
+  "exportinfo.gff": {
+    "sha1": "A6873A615EB2844BE2BEEB5AACFF4BCD3CA59661",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_conf_orb.nss": {
+    "sha1": "5CDB056EE5893253D86E0723430BA11BDCC8C265",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_conf_orb.uti": {
+    "sha1": "7E6C06843E8B697383E17322D3C074DDA47A7587",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_inc_conf.nss": {
+    "sha1": "371EB97CC817332C734E890EE35B527C7606148D",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_inc_json.nss": {
+    "sha1": "D080432FDEAA1847C01E6B70776CDCD365884A0E",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_it_mbook.nss": {
+    "sha1": "21E4A1D9D98EDDD61B512BBB6456CC5C201B400C",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_it_mbook.uti": {
+    "sha1": "35B632DFE0E357E3302BF2BA82809ED3434D3DE8",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_mod_def_act.nss": {
+    "sha1": "DA7A131B73E4F2AA13C66BF5E0751B7D58A3FED6",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_mod_def_load.nss": {
+    "sha1": "9CFF3F4C4B45431379F2DEB6551CA0C06269898B",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_on_plyr_chat.nss": {
+    "sha1": "8C9CAA179CEC9CE0F78D3A409D9D3360450AF66B",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_on_plyr_lvl.nss": {
+    "sha1": "CC8FECE8F40343766F3E7EB597AAFB5AA1B38DCA",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_on_plyr_rest.nss": {
+    "sha1": "7146817B8C2A719A45B1F6E6F2C9D3FF5E4C410C",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_override.nss": {
+    "sha1": "22A7F411F543EE3051DF0247763164686BBD82D5",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_plyr_trgt.nss": {
+    "sha1": "AB233B40243D8ECEEC22C75382372CA3EDE8D625",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_spell_hook.nss": {
+    "sha1": "9867989D1E747F7D22818AA9FB7933B9D768D678",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_spell_target.utp": {
+    "sha1": "79ADDE3696879DEB3240CB73F8DBB641AA73D723",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_tools.nss": {
+    "sha1": "782623627A18CFE51C933FB6569BACEF4681F660",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "sw_ui_evt_handle.nss": {
+    "sha1": "84F150557BB6E72876502589C672D7A4A56F0D36",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "utl_i_spells.nss": {
+    "sha1": "61699C2A498802230780FFEAB7F863DB9DB663DE",
+    "modified": "2026-05-14T05:18:59+00:00"
+  },
+  "x2_inc_switches.nss": {
+    "sha1": "3916422F65F7DC960D049361538F9B01F9ABC3B9",
+    "modified": "2026-05-14T05:18:59+00:00"
+  }
+}
