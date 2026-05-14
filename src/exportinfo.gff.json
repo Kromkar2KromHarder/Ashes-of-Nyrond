@@ -1,0 +1,569 @@
+{
+  "__data_type": "GFF ",
+  "Comments": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Dependencies": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_conf_orb"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2025
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_conf_orb"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_conf_orb"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_inc_conf"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_inc_json"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_it_mbook"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2025
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_it_mbook"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_it_mbook"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_mod_def_act"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_mod_def_act"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_mod_def_load"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_mod_def_load"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_chat"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_chat"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_lvl"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_lvl"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_rest"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_rest"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_override"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_override"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_plyr_trgt"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_plyr_trgt"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_spell_hook"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_spell_hook"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_spell_target"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2044
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_tools"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_ui_evt_handle"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_ui_evt_handle"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "utl_i_spells"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "x2_inc_switches"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      }
+    ]
+  },
+  "Expansion_Pack": {
+    "type": "word",
+    "value": 3
+  },
+  "Missing": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_inc_json"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2010
+        }
+      }
+    ]
+  },
+  "Mod_MinGameVer": {
+    "type": "cexostring",
+    "value": "1.87"
+  },
+  "Top": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_conf_orb"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_conf_orb"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2025
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_inc_conf"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_inc_json"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_it_mbook"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_it_mbook"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2025
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_mod_def_act"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_mod_def_load"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_chat"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_lvl"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_on_plyr_rest"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_override"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_plyr_trgt"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_spell_hook"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_spell_target"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2044
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_tools"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "sw_ui_evt_handle"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      },
+      {
+        "__struct_id": 0,
+        "ResRef": {
+          "type": "resref",
+          "value": "utl_i_spells"
+        },
+        "ResType": {
+          "type": "int",
+          "value": 2009
+        }
+      }
+    ]
+  }
+}
