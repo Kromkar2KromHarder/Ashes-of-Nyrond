@@ -2,6 +2,7 @@
 #include "nwnx_sql"
 #include "nwnx_feedback"
 #include "nwnx_util"
+#include "sw_tools"
 
 void main()
 {
@@ -74,4 +75,10 @@ void main()
     NWNX_Feedback_SetFeedbackMessageHidden(NWNX_FEEDBACK_REST_CANCEL_REST, TRUE);
 
     ExecuteScript("gs_time_advance", OBJECT_SELF);
+
+    // spell widget setup
+    SetLocalString(GetModule(), SW_OVERRIDDEN_NUI_SCRIPT, "gs_nui_charevt");
+    SetEventScript(GetModule(), EVENT_SCRIPT_MODULE_ON_NUI_EVENT, "sw_ui_evt_handle");
+    SetEventScript(GetModule(), EVENT_SCRIPT_MODULE_ON_PLAYER_TARGET, "sw_plyr_trgt");
+    SetLocalString(GetModule(), "X2_S_UD_SPELLSCRIPT", "sw_spell_hook");
 }
