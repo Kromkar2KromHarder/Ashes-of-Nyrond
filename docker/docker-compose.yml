@@ -1,0 +1,102 @@
+services:
+  nwn:
+    image: nwnxee/unified:latest
+    container_name: nwn_server
+    depends_on:
+      mysql:
+        condition: service_healthy
+    env_file:
+      - nwnx.env
+    environment:
+      - NWN_MODULE=customgiga
+      - NWN_MAXCLIENTS=10
+      - NWN_SERVERNAME=My Server
+      - NWN_PORT=5121
+      - NWN_NWSYNCURL=http://142.93.207.203:8080/nwsync
+    volumes:
+      - /home/ryione/Unnamed-NWN-Server/modules:/nwn/home/modules
+      - /home/ryione/Unnamed-NWN-Server/servervault:/nwn/home/servervault
+      - /home/ryione/Unnamed-NWN-Server/hak:/nwn/home/hak
+      - /home/ryione/Unnamed-NWN-Server/override:/nwn/home/override
+      - /home/ryione/Unnamed-NWN-Server/tlk:/nwn/home/tlk
+      - /home/ryione/Unnamed-NWN-Server/nwsync:/nwn/home/nwsync
+      - /home/ryione/Unnamed-NWN-Server/settings.tml:/nwn/home/settings.tml
+    ports:
+      - "30000:5121/udp"
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=AhesNyr0ndQL
+      - MYSQL_DATABASE=wiki
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-pAhesNyr0ndQL"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  wiki:
+    image: ghcr.io/requarks/wiki:2
+    container_name: wiki
+    depends_on:
+      - mysql
+    environment:
+      - DB_TYPE=mysql
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASS=AhesNyr0ndQL
+      - DB_NAME=wiki
+    ports:
+      - "3000:3000"
+
+  flarum:
+    image: mondedie/flarum:latest
+    container_name: flarum
+    depends_on:
+      - mysql
+    environment:
+      - FORUM_URL=https://forum.ashesofnyrond.net
+      - DB_HOST=mysql
+      - DB_NAME=flarum
+      - DB_USER=root
+      - DB_PASS=AhesNyr0ndQL
+      - FLARUM_ADMIN_USER=Kromkar
+      - FLARUM_ADMIN_PASS=Ch@ngeM3
+      - FLARUM_ADMIN_MAIL=warlordsa148@gmail.com
+      - FLARUM_TITLE=Ashes of Nyrond
+    volumes:
+      - flarum_assets:/flarum/app/public/assets
+      - flarum_extensions:/flarum/app/extensions
+    ports:
+      - "8888:8888"
+
+  nginx:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "81:81"
+      - "443:443"
+    volumes:
+      - nginx_data:/data
+      - nginx_letsencrypt:/etc/letsencrypt
+
+  nwsync-web:
+    image: nginx:alpine
+    container_name: nwsync_web
+    volumes:
+      - /home/ryione/Unnamed-NWN-Server/nwsync:/usr/share/nginx/html/nwsync:ro
+      - /home/ryione/Unnamed-NWN-Server/nwsync.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "8080:80"
+
+volumes:
+  mysql_data:
+  nginx_data:
+  nginx_letsencrypt:
+  flarum_assets:
+  flarum_extensions:
