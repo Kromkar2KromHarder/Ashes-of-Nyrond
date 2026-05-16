@@ -5,3 +5,4 @@ servervault/
 *.ncs
 tlkedit2/
 docker/docker-compose.yml.nasher/
+.nasher/
