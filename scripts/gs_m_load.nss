@@ -77,4 +77,5 @@ void main()
 
     ExecuteScript("gs_time_advance", OBJECT_SELF);
     NWNX_Events_SubscribeEvent("NWNX_ON_CLIENT_ENTER_AFTER", "gs_on_enter_after");
+    FloatingTextStringOnCreature("DEBUG: subscribed to enter event", GetFirstPC(), FALSE);
 }
