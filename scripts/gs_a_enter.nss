@@ -9,6 +9,7 @@
 #include "gs_inc_listener"
 #include "gs_inc_text"
 #include "gs_inc_worship"
+#include "gs_inc_resources"
 
 const int GS_TIMEOUT         = 3600; //1 hour
 const int GS_EXPERIENCE_BASE = 1000; //level 2
@@ -86,7 +87,7 @@ void main()
 
     //area description
     sMessage = GetLocalString(OBJECT_SELF, "GS_TEXT");
-    if (sMessage != "") DelayCommand(2.5, SendMessageToPC(oEntering, "<câÛÂ>" + sMessage));
+    if (sMessage != "") DelayCommand(2.5, SendMessageToPC(oEntering, "<cï¿½ï¿½ï¿½>" + sMessage));
 
     //load area
     if (! nEnabled)
@@ -241,9 +242,9 @@ void main()
     switch (GetLocalInt(oEntering, "GS_ENABLED"))
     {
 case TRUE:
-        //export character
-        ExportSingleCharacter(oEntering);
-        break;
+    ExportSingleCharacter(oEntering);
+    DelayCommand(1.0, gsRestoreResources(oEntering));
+    break;
 
     case -1:
         //listener
@@ -294,7 +295,7 @@ if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
     {
         SetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag, TRUE);
         NWNX_SQL_ExecuteQuery("INSERT INTO explored_areas (bic, area_tag) VALUES ('" + NWNX_Player_GetBicFileName(oEntering) + "', '" + sAreaTag + "')");
-        SendMessageToPC(oEntering, "<cªÕþ>You have discovered a new area.");
+        SendMessageToPC(oEntering, "<cï¿½ï¿½ï¿½>You have discovered a new area.");
         gsXPGiveExperience(oEntering, 15 + Random(26));
     }
 }

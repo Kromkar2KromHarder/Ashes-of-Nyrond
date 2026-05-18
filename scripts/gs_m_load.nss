@@ -70,6 +70,7 @@ void main()
     NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS player_data (bic VARCHAR(64) PRIMARY KEY, area_tag VARCHAR(32), pos_x FLOAT, pos_y FLOAT, pos_z FLOAT, gold INT, rest_meter FLOAT)");
     NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS explored_areas (bic VARCHAR(64), area_tag VARCHAR(32), PRIMARY KEY (bic, area_tag))");
     NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS server_time (id INT PRIMARY KEY, year INT, month INT, day INT, hour INT, minute INT, real_time INT, epoch_real INT, epoch_day INT)");
+    NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS player_resources (bic VARCHAR(64), resource_key VARCHAR(64), resource_value INT, PRIMARY KEY (bic, resource_key))");
     NWNX_Feedback_SetFeedbackMessageHidden(NWNX_FEEDBACK_REST_BEGINNING_REST, TRUE);
     NWNX_Feedback_SetFeedbackMessageHidden(NWNX_FEEDBACK_REST_CANCEL_REST, TRUE);
 
