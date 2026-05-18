@@ -21,6 +21,11 @@ jobs:
           script: |
             cd ~/Unnamed-NWN-Server
             git pull
-            nasher pack --yes
-            cd docker
-            sudo docker compose restart nwn
+            if NWN_ROOT=/home/ryione/nwn_data nasher compile --yes 2>&1; then
+              echo "Compile succeeded, restarting server"
+              cd docker
+              sudo docker compose restart nwn
+            else
+              echo "Compile failed, aborting deploy"
+              exit 1
+            fi
