@@ -2,6 +2,7 @@
 #include "nwnx_sql"
 #include "nwnx_feedback"
 #include "nwnx_util"
+#include "nwnx_events"
 
 void main()
 {
@@ -75,4 +76,5 @@ void main()
     NWNX_Feedback_SetFeedbackMessageHidden(NWNX_FEEDBACK_REST_CANCEL_REST, TRUE);
 
     ExecuteScript("gs_time_advance", OBJECT_SELF);
+    NWNX_Events_SubscribeEvent("NWNX_ON_CLIENT_ENTER_AFTER", "gs_on_enter_after");
 }
