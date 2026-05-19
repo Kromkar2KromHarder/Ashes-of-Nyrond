@@ -87,7 +87,7 @@ void main()
 
     //area description
     sMessage = GetLocalString(OBJECT_SELF, "GS_TEXT");
-    if (sMessage != "") DelayCommand(2.5, SendMessageToPC(oEntering, "<c���>" + sMessage));
+    if (sMessage != "") DelayCommand(2.5, SendMessageToPC(oEntering, "<c???>" + sMessage));
 
     //load area
     if (! nEnabled)
@@ -295,7 +295,7 @@ if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
     {
         SetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag, TRUE);
         NWNX_SQL_ExecuteQuery("INSERT INTO explored_areas (bic, area_tag) VALUES ('" + NWNX_Player_GetBicFileName(oEntering) + "', '" + sAreaTag + "')");
-        SendMessageToPC(oEntering, "<c���>You have discovered a new area.");
+        SendMessageToPC(oEntering, "<c???>You have discovered a new area.");
         gsXPGiveExperience(oEntering, 15 + Random(26));
     }
 }
@@ -319,3 +319,4 @@ if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
         }
     }
 }
+

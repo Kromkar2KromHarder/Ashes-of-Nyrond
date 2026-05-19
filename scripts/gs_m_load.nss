@@ -79,3 +79,4 @@ void main()
     NWNX_Events_SubscribeEvent("NWNX_ON_CLIENT_ENTER_AFTER", "gs_after_enter");
     WriteTimestampedLogEntry("DEBUG: Subscribed to NWNX_ON_CLIENT_ENTER_AFTER");
 }
+

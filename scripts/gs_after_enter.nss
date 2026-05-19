@@ -7,6 +7,6 @@ void main()
     if (!GetIsPC(oPC)) return;
     if (GetIsDM(oPC)) return;
 
-    FloatingTextStringOnCreature("DEBUG: post-login restore firing", oPC, FALSE);
+    SendMessageToPC(oPC, "DEBUG: post-login restore firing");
     gsRestoreResources(oPC);
 }

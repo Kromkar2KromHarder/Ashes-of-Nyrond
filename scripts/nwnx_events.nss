@@ -2530,3 +2530,4 @@ int NWNX_Events_GetNumSubscribers(string sEvent)
     NWNXCall(NWNX_Events, "GetNumSubscribers");
     return NWNXPopInt();
 }
+

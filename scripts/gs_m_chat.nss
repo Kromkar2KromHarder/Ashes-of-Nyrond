@@ -21,4 +21,8 @@ void main()
         SendMessageToPC(oPC, "<cªÕþ>" + sDate);
         SetPCChatMessage("");
     }
+    if (GetStringLeft(sMessage, 5) == "!test")
+{
+    SendMessageToPC(oPC, GetStringByStrRef(16777216));
+}
 }
