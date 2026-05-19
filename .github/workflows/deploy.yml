@@ -21,12 +21,11 @@ jobs:
           script: |
             cd ~/Unnamed-NWN-Server
             git pull
-            git checkout HEAD -- modules/customgiga.mod
-            if NWN_ROOT=/home/ryione/nwn_data nasher compile --yes 2>&1; then
-              echo "Compile succeeded, restarting server"
+            if nasher pack --yes 2>&1 | grep -q "Success: packed"; then
+              echo "Pack succeeded, restarting server"
               cd docker
               sudo docker compose restart nwn
             else
-              echo "Compile failed, aborting deploy"
+              echo "Pack failed, aborting deploy"
               exit 1
             fi
