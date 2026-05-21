@@ -76,7 +76,7 @@
 	player-party-control = false
 	pvp-mode = 1
 	reload-when-empty = true
-	restore-spell-uses-on-login = false
+	restore-spell-uses-on-login = true
 	savegames-store-characters = true
 	savegames-vault-characters-only = false
 	show-dm-join-messages = true

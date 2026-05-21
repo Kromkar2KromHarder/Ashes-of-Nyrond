@@ -76,7 +76,5 @@ void main()
     NWNX_Feedback_SetFeedbackMessageHidden(NWNX_FEEDBACK_REST_CANCEL_REST, TRUE);
 
     ExecuteScript("gs_time_advance", OBJECT_SELF);
-    NWNX_Events_SubscribeEvent("NWNX_ON_CLIENT_ENTER_AFTER", "gs_after_enter");
-    WriteTimestampedLogEntry("DEBUG: Subscribed to NWNX_ON_CLIENT_ENTER_AFTER");
+    NWNX_Events_SubscribeEvent("NWNX_ON_FEAT_USE_AFTER", "gs_feat_use");
 }
-

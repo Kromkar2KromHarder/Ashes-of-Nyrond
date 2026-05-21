@@ -2,7 +2,6 @@
 #include "nwnx_player"
 #include "gs_inc_state"
 #include "gs_inc_common"
-#include "gs_inc_resources"
 
 void main()
 {
@@ -13,9 +12,6 @@ void main()
     SetLocalInt(GetModule(),
                 "GS_HEALTH_" + ObjectToString(oExiting),
                 GetCurrentHitPoints(oExiting));
-
-    // save resources
-    gsSaveResources(oExiting);
 
     // save player data
     string sCDKey   = NWNX_Player_GetBicFileName(oExiting);

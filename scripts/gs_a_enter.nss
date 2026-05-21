@@ -243,7 +243,7 @@ void main()
     {
 case TRUE:
     ExportSingleCharacter(oEntering);
-    DelayCommand(3.0, gsRestoreResources(oEntering));
+    DelayCommand(1.0, gsRestoreResources(oEntering));
     break;
 
     case -1:
