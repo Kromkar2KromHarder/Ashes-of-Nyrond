@@ -280,11 +280,8 @@ case TRUE:
             gsCHApplyChain(oChain, oEntering);
         }
         SendMessageToPC(oEntering, GS_T_16777216);
+        DelayCommand(3.0, gsRestoreResources(oEntering));
         SetLocalInt(oEntering, "GS_ENABLED", TRUE);
-        break;
-
-    default:
-        SetLocalInt(oEntering, "GS_ENABLED", -1);
         break;
     }
 
