@@ -56,7 +56,7 @@ void main()
         AssignCommand(oEntering, DelayCommand(1.0, ActionJumpToLocation(lLoc)));
         NWNX_Creature_SetGold(oEntering, nGold);
         gsSTAdjustState(GS_ST_REST, fRest);
-        DelayCommand(3.0, gsRestoreResources(oEntering));
+        DelayCommand(5.0, gsRestoreResources(oEntering));
     }
 
     NWNX_SQL_ExecuteQuery("SELECT area_tag FROM explored_areas WHERE bic='" + sBic + "'");
