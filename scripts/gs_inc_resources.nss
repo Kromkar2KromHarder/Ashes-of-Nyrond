@@ -22,6 +22,7 @@ void gsRestoreResources(object oPC)
             {
                 NWNX_SQL_ReadNextRow();
                 int nRemaining = StringToInt(NWNX_SQL_ReadDataInActiveRow(0));
+                WriteTimestampedLogEntry("DEBUG: Setting feat " + IntToString(nFeat) + " to " + IntToString(nRemaining) + " for " + GetName(oPC));
                 NWNX_Creature_SetFeatRemainingUses(oPC, nFeat, nRemaining);
             }
         }
