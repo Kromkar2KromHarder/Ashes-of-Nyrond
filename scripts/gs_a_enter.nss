@@ -9,7 +9,6 @@
 #include "gs_inc_listener"
 #include "gs_inc_text"
 #include "gs_inc_worship"
-#include "gs_inc_resources"
 
 const int GS_TIMEOUT         = 3600; //1 hour
 const int GS_EXPERIENCE_BASE = 1000; //level 2
@@ -241,11 +240,9 @@ void main()
 
     switch (GetLocalInt(oEntering, "GS_ENABLED"))
     {
-case TRUE:
-    ExportSingleCharacter(oEntering);
-    WriteTimestampedLogEntry("DEBUG: case TRUE hit for " + GetName(oEntering));
-    DelayCommand(3.0, gsRestoreResources(oEntering));
-    break;
+    case TRUE:
+        ExportSingleCharacter(oEntering);
+        break;
 
     case -1:
         //listener
@@ -255,24 +252,18 @@ case TRUE:
         {
             if (GetHitDice(oEntering) == 1)
             {
-                //remove gold
                 AssignCommand(oEntering,
                               TakeGoldFromCreature(GetGold(oEntering),
                                                    oEntering,
                                                    TRUE));
-                //remove inventory
                 gsCMDestroyInventory(oEntering);
-                //give base experience
                 if (GetXP(oEntering) < GS_EXPERIENCE_BASE)
                     GiveXPToCreature(oEntering, GS_EXPERIENCE_BASE);
             }
-            //create base inventory
             DelayCommand(0.5, gsCreateBaseInventory(oEntering));
-            //open bank account
             gsFIOpenAccount(oEntering);
             gsPCActivatePlayer(oEntering);
         }
-        //chain
         if (gsCHGetHasChain())
         {
             object oChain = gsCHGetChain(oEntering);
@@ -280,23 +271,23 @@ case TRUE:
             gsCHApplyChain(oChain, oEntering);
         }
         SendMessageToPC(oEntering, GS_T_16777216);
-        DelayCommand(3.0, gsRestoreResources(oEntering));
         SetLocalInt(oEntering, "GS_ENABLED", TRUE);
         break;
     }
 
-//exploration XP
-if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
-{
-    string sAreaTag = GetTag(OBJECT_SELF);
-    if (! GetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag))
+    //exploration XP
+    if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
     {
-        SetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag, TRUE);
-        NWNX_SQL_ExecuteQuery("INSERT INTO explored_areas (bic, area_tag) VALUES ('" + NWNX_Player_GetBicFileName(oEntering) + "', '" + sAreaTag + "')");
-        SendMessageToPC(oEntering, "<c???>You have discovered a new area.");
-        gsXPGiveExperience(oEntering, 15 + Random(26));
+        string sAreaTag = GetTag(OBJECT_SELF);
+        if (! GetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag))
+        {
+            SetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag, TRUE);
+            NWNX_SQL_ExecuteQuery("INSERT INTO explored_areas (bic, area_tag) VALUES ('" + NWNX_Player_GetBicFileName(oEntering) + "', '" + sAreaTag + "')");
+            SendMessageToPC(oEntering, "<c???>You have discovered a new area.");
+            gsXPGiveExperience(oEntering, 15 + Random(26));
+        }
     }
-}
+
     //verify deity
     string sDeity = GetDeity(oEntering);
     if (sDeity != "" &&
@@ -305,6 +296,7 @@ if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
         SetDeity(oEntering, "");
         SendMessageToPC(oEntering, GS_T_16777297);
     }
+
     //encounter
     if ((nTimeout || ! nEnabled) &&
         gsENGetEncounterChance())
@@ -317,4 +309,3 @@ if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
         }
     }
 }
-
