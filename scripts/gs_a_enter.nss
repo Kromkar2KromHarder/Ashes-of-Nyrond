@@ -243,6 +243,7 @@ void main()
     {
 case TRUE:
     ExportSingleCharacter(oEntering);
+    WriteTimestampedLogEntry("DEBUG: case TRUE hit for " + GetName(oEntering));
     DelayCommand(3.0, gsRestoreResources(oEntering));
     break;
 
