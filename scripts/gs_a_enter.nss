@@ -280,6 +280,7 @@ void main()
         SetLocalInt(oEntering, "GS_ENABLED", TRUE);
         break;
     }
+    } // close switch
 
     //exploration XP
     if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
