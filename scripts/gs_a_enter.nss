@@ -1,3 +1,4 @@
+#include "gs_nui_welcome"
 #include "nwnx_player"
 #include "nwnx_sql"
 #include "gs_inc_chain"
@@ -248,7 +249,7 @@ void main()
         //listener
         gsLICreateListener(oEntering);
         //player activation
-        if (! gsPCGetIsPlayerActive(oEntering))
+      if (! gsPCGetIsPlayerActive(oEntering))
         {
             if (GetHitDice(oEntering) == 1)
             {
@@ -262,6 +263,7 @@ void main()
             }
             DelayCommand(0.5, gsCreateBaseInventory(oEntering));
             gsFIOpenAccount(oEntering);
+            DelayCommand(1.0, gsOpenWelcomeWindow(oEntering));
             gsPCActivatePlayer(oEntering);
         }
         if (gsCHGetHasChain())
