@@ -42,22 +42,30 @@ void main()
     SetLocalInt(oEntering, "GS_ACTIVE", TRUE);
 
     string sBic = NWNX_Player_GetBicFileName(oEntering);
-    NWNX_SQL_ExecuteQuery("SELECT area_tag, pos_x, pos_y, pos_z, gold, rest_meter FROM player_data WHERE bic='" + sBic + "'");
+    NWNX_SQL_ExecuteQuery("SELECT area_tag, pos_x, pos_y, pos_z, gold, rest_meter, activated FROM player_data WHERE bic='" + sBic + "'");
     if (NWNX_SQL_ReadyToReadNextRow())
     {
         NWNX_SQL_ReadNextRow();
-        string sAreaTag = NWNX_SQL_ReadDataInActiveRow(0);
-        float fX = StringToFloat(NWNX_SQL_ReadDataInActiveRow(1));
-        float fY = StringToFloat(NWNX_SQL_ReadDataInActiveRow(2));
-        float fZ = StringToFloat(NWNX_SQL_ReadDataInActiveRow(3));
-        int nGold = StringToInt(NWNX_SQL_ReadDataInActiveRow(4));
-        float fRest = StringToFloat(NWNX_SQL_ReadDataInActiveRow(5));
-        object oArea = GetObjectByTag(sAreaTag);
-        location lLoc = Location(oArea, Vector(fX, fY, fZ), 0.0);
+        string sAreaTag  = NWNX_SQL_ReadDataInActiveRow(0);
+        float fX         = StringToFloat(NWNX_SQL_ReadDataInActiveRow(1));
+        float fY         = StringToFloat(NWNX_SQL_ReadDataInActiveRow(2));
+        float fZ         = StringToFloat(NWNX_SQL_ReadDataInActiveRow(3));
+        int nGold        = StringToInt(NWNX_SQL_ReadDataInActiveRow(4));
+        float fRest      = StringToFloat(NWNX_SQL_ReadDataInActiveRow(5));
+        int nActivated   = StringToInt(NWNX_SQL_ReadDataInActiveRow(6));
+        object oArea     = GetObjectByTag(sAreaTag);
+        location lLoc    = Location(oArea, Vector(fX, fY, fZ), 0.0);
         AssignCommand(oEntering, DelayCommand(1.0, ActionJumpToLocation(lLoc)));
         NWNX_Creature_SetGold(oEntering, nGold);
         gsSTAdjustState(GS_ST_REST, fRest);
         DelayCommand(5.0, gsRestoreResources(oEntering));
+        if (!nActivated)
+            SetLocalInt(oEntering, "GS_NEW_PLAYER", TRUE);
+    }
+    else
+    {
+        // no player_data entry yet - brand new character
+        SetLocalInt(oEntering, "GS_NEW_PLAYER", TRUE);
     }
 
     // load explored areas

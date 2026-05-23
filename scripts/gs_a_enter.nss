@@ -10,7 +10,6 @@
 #include "gs_inc_listener"
 #include "gs_inc_text"
 #include "gs_inc_worship"
-#include "gs_inc_pc"
 
 const int GS_TIMEOUT         = 3600; //1 hour
 const int GS_EXPERIENCE_BASE = 1000; //level 2
@@ -250,7 +249,7 @@ void main()
         //listener
         gsLICreateListener(oEntering);
         //player activation
-        if (! gsPCGetIsPlayerActive(oEntering))
+        if (GetLocalInt(oEntering, "GS_NEW_PLAYER"))
         {
             if (GetHitDice(oEntering) == 1)
             {
@@ -265,7 +264,10 @@ void main()
             DelayCommand(0.5, gsCreateBaseInventory(oEntering));
             gsFIOpenAccount(oEntering);
             DelayCommand(1.0, gsOpenWelcomeWindow(oEntering));
-            gsPCActivatePlayer(oEntering);
+            // mark as activated in DB
+            string sBicActivate = NWNX_Player_GetBicFileName(oEntering);
+            NWNX_SQL_ExecuteQuery("INSERT INTO player_data (bic, activated) VALUES ('" + sBicActivate + "', 1) ON DUPLICATE KEY UPDATE activated=1");
+            DeleteLocalInt(oEntering, "GS_NEW_PLAYER");
         }
         if (gsCHGetHasChain())
         {
