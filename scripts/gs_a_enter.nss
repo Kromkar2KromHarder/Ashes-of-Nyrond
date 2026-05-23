@@ -246,6 +246,7 @@ void main()
         break;
 
     case -1:
+    {
         //listener
         gsLICreateListener(oEntering);
         //player activation
