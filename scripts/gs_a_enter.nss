@@ -248,8 +248,10 @@ void main()
     case -1:
         //listener
         gsLICreateListener(oEntering);
-        //player activation
-      if (! gsPCGetIsPlayerActive(oEntering))
+        //player activation check via MySQL
+        string sBicCheck = NWNX_Player_GetBicFileName(oEntering);
+        NWNX_SQL_ExecuteQuery("SELECT bic FROM player_data WHERE bic='" + sBicCheck + "'");
+        if (!NWNX_SQL_ReadyToReadNextRow())
         {
             if (GetHitDice(oEntering) == 1)
             {
@@ -264,7 +266,6 @@ void main()
             DelayCommand(0.5, gsCreateBaseInventory(oEntering));
             gsFIOpenAccount(oEntering);
             DelayCommand(1.0, gsOpenWelcomeWindow(oEntering));
-            gsPCActivatePlayer(oEntering);
         }
         if (gsCHGetHasChain())
         {

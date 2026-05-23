@@ -6,7 +6,6 @@
 #include "gs_inc_common"
 #include "gs_inc_text"
 #include "gs_inc_resources"
-#include "gs_inc_xp"
 
 void main()
 {
@@ -61,25 +60,13 @@ void main()
         DelayCommand(5.0, gsRestoreResources(oEntering));
     }
 
-   // load explored areas and check for new discovery
-    string sCurrentArea = GetTag(GetArea(oEntering));
-    int bAlreadyExplored = FALSE;
+    // load explored areas
     NWNX_SQL_ExecuteQuery("SELECT area_tag FROM explored_areas WHERE bic='" + sBic + "'");
     while (NWNX_SQL_ReadyToReadNextRow())
     {
         NWNX_SQL_ReadNextRow();
         string sTag = NWNX_SQL_ReadDataInActiveRow(0);
         SetLocalInt(oEntering, "GS_EXPLORED_" + sTag, TRUE);
-        if (sTag == sCurrentArea) bAlreadyExplored = TRUE;
-    }
-
-    // award XP for new area discovery on login area
-    if (!bAlreadyExplored && sCurrentArea != "")
-    {
-        NWNX_SQL_ExecuteQuery("INSERT INTO explored_areas (bic, area_tag) VALUES ('" + sBic + "', '" + sCurrentArea + "')");
-        SetLocalInt(oEntering, "GS_EXPLORED_" + sCurrentArea, TRUE);
-        SendMessageToPC(oEntering, "<c???>You have discovered a new area.");
-        gsXPGiveExperience(oEntering, 15 + Random(26));
     }
 
     // apply name layers for this PC vs all online PCs
