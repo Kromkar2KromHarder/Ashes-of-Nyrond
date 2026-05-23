@@ -6,6 +6,7 @@
 #include "gs_inc_common"
 #include "gs_inc_text"
 #include "gs_inc_resources"
+#include "gs_inc_xp"
 
 void main()
 {
