@@ -238,7 +238,7 @@ void main()
 
     //mortality
     SetImmortal(oEntering, nOverrideDeath);
-
+    WriteTimestampedLogEntry("DEBUG: gs_a_enter GS_ENABLED=" + IntToString(GetLocalInt(oEntering, "GS_ENABLED")) + " for " + GetName(oEntering));
     switch (GetLocalInt(oEntering, "GS_ENABLED"))
     {
     case TRUE:
