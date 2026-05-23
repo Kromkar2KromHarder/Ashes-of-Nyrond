@@ -66,4 +66,61 @@ void main()
         string sTag = NWNX_SQL_ReadDataInActiveRow(0);
         SetLocalInt(oEntering, "GS_EXPLORED_" + sTag, TRUE);
     }
+
+    // apply name layers for this PC vs all online PCs
+    object oOther = GetFirstPC();
+    while (GetIsObjectValid(oOther))
+    {
+        if (oOther != oEntering)
+        {
+            string sOtherBic = NWNX_Player_GetBicFileName(oOther);
+
+            // what does oEntering see oOther as?
+            NWNX_SQL_ExecuteQuery(
+                "SELECT alias FROM character_aliases WHERE observer_bic='" + sBic + "' AND target_bic='" + sOtherBic + "'");
+            if (NWNX_SQL_ReadyToReadNextRow())
+            {
+                NWNX_SQL_ReadNextRow();
+                NWNX_Player_SetCreatureNameOverride(oEntering, oOther, NWNX_SQL_ReadDataInActiveRow(0));
+            }
+            else
+            {
+                NWNX_SQL_ExecuteQuery(
+                    "SELECT display_name FROM character_names WHERE bic='" + sOtherBic + "'");
+                if (NWNX_SQL_ReadyToReadNextRow())
+                {
+                    NWNX_SQL_ReadNextRow();
+                    NWNX_Player_SetCreatureNameOverride(oEntering, oOther, NWNX_SQL_ReadDataInActiveRow(0));
+                }
+                else
+                {
+                    NWNX_Player_SetCreatureNameOverride(oEntering, oOther, "Stranger");
+                }
+            }
+
+            // what does oOther see oEntering as?
+            NWNX_SQL_ExecuteQuery(
+                "SELECT alias FROM character_aliases WHERE observer_bic='" + sOtherBic + "' AND target_bic='" + sBic + "'");
+            if (NWNX_SQL_ReadyToReadNextRow())
+            {
+                NWNX_SQL_ReadNextRow();
+                NWNX_Player_SetCreatureNameOverride(oOther, oEntering, NWNX_SQL_ReadDataInActiveRow(0));
+            }
+            else
+            {
+                NWNX_SQL_ExecuteQuery(
+                    "SELECT display_name FROM character_names WHERE bic='" + sBic + "'");
+                if (NWNX_SQL_ReadyToReadNextRow())
+                {
+                    NWNX_SQL_ReadNextRow();
+                    NWNX_Player_SetCreatureNameOverride(oOther, oEntering, NWNX_SQL_ReadDataInActiveRow(0));
+                }
+                else
+                {
+                    NWNX_Player_SetCreatureNameOverride(oOther, oEntering, "Stranger");
+                }
+            }
+        }
+        oOther = GetNextPC();
+    }
 }
