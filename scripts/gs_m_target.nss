@@ -1,4 +1,5 @@
 #include "nwnx_player"
+#include "nwnx_rename"
 #include "nwnx_sql"
 
 void main()
@@ -20,19 +21,18 @@ void main()
             "INSERT INTO character_names (bic, display_name) VALUES ('" + sObsBic + "', '" + sName + "') " +
             "ON DUPLICATE KEY UPDATE display_name=VALUES(display_name)");
 
-        // update nameplate for all currently online players
+        // update nameplate for all currently online players who don't have a personal alias
         object oOther = GetFirstPC();
         while (GetIsObjectValid(oOther))
         {
             if (oOther != oPC)
             {
-                // only apply if they don't have a personal alias for this PC
                 string sOtherBic = NWNX_Player_GetBicFileName(oOther);
                 NWNX_SQL_ExecuteQuery(
                     "SELECT alias FROM character_aliases WHERE observer_bic='" + sOtherBic + "' AND target_bic='" + sObsBic + "'");
                 if (!NWNX_SQL_ReadyToReadNextRow())
                 {
-                    NWNX_Player_SetCreatureNameOverride(oOther, oPC, sName);
+                    NWNX_Rename_SetPCNameOverride(oPC, sName, "", "", NWNX_RENAME_PLAYERNAME_DEFAULT, oOther);
                 }
             }
             oOther = GetNextPC();
@@ -42,12 +42,11 @@ void main()
     else
     {
         // setting alias for another PC
-        string sTargetBic2 = NWNX_Player_GetBicFileName(oTarget);
         NWNX_SQL_ExecuteQuery(
-            "INSERT INTO character_aliases (observer_bic, target_bic, alias) VALUES ('" + sObsBic + "', '" + sTargetBic2 + "', '" + sName + "') " +
+            "INSERT INTO character_aliases (observer_bic, target_bic, alias) VALUES ('" + sObsBic + "', '" + sTargetBic + "', '" + sName + "') " +
             "ON DUPLICATE KEY UPDATE alias=VALUES(alias)");
 
-        NWNX_Player_SetCreatureNameOverride(oPC, oTarget, sName);
+        NWNX_Rename_SetPCNameOverride(oTarget, sName, "", "", NWNX_RENAME_PLAYERNAME_DEFAULT, oPC);
         FloatingTextStringOnCreature("You now know this person as: " + sName, oPC, FALSE);
     }
 

@@ -1,6 +1,7 @@
 #include "nwnx_sql"
 #include "nwnx_creature"
 #include "nwnx_player"
+#include "nwnx_rename"
 #include "gs_inc_state"
 #include "gs_inc_common"
 #include "gs_inc_text"
@@ -81,7 +82,7 @@ void main()
             if (NWNX_SQL_ReadyToReadNextRow())
             {
                 NWNX_SQL_ReadNextRow();
-                NWNX_Player_SetCreatureNameOverride(oEntering, oOther, NWNX_SQL_ReadDataInActiveRow(0));
+                NWNX_Rename_SetPCNameOverride(oOther, NWNX_SQL_ReadDataInActiveRow(0), "", "", NWNX_RENAME_PLAYERNAME_DEFAULT, oEntering);
             }
             else
             {
@@ -90,11 +91,11 @@ void main()
                 if (NWNX_SQL_ReadyToReadNextRow())
                 {
                     NWNX_SQL_ReadNextRow();
-                    NWNX_Player_SetCreatureNameOverride(oEntering, oOther, NWNX_SQL_ReadDataInActiveRow(0));
+                    NWNX_Rename_SetPCNameOverride(oOther, NWNX_SQL_ReadDataInActiveRow(0), "", "", NWNX_RENAME_PLAYERNAME_DEFAULT, oEntering);
                 }
                 else
                 {
-                    NWNX_Player_SetCreatureNameOverride(oEntering, oOther, "Stranger");
+                    NWNX_Rename_SetPCNameOverride(oOther, "Stranger", "", "", NWNX_RENAME_PLAYERNAME_DEFAULT, oEntering);
                 }
             }
 
@@ -104,7 +105,7 @@ void main()
             if (NWNX_SQL_ReadyToReadNextRow())
             {
                 NWNX_SQL_ReadNextRow();
-                NWNX_Player_SetCreatureNameOverride(oOther, oEntering, NWNX_SQL_ReadDataInActiveRow(0));
+                NWNX_Rename_SetPCNameOverride(oEntering, NWNX_SQL_ReadDataInActiveRow(0), "", "", NWNX_RENAME_PLAYERNAME_DEFAULT, oOther);
             }
             else
             {
@@ -113,11 +114,11 @@ void main()
                 if (NWNX_SQL_ReadyToReadNextRow())
                 {
                     NWNX_SQL_ReadNextRow();
-                    NWNX_Player_SetCreatureNameOverride(oOther, oEntering, NWNX_SQL_ReadDataInActiveRow(0));
+                    NWNX_Rename_SetPCNameOverride(oEntering, NWNX_SQL_ReadDataInActiveRow(0), "", "", NWNX_RENAME_PLAYERNAME_DEFAULT, oOther);
                 }
                 else
                 {
-                    NWNX_Player_SetCreatureNameOverride(oOther, oEntering, "Stranger");
+                    NWNX_Rename_SetPCNameOverride(oEntering, "Stranger", "", "", NWNX_RENAME_PLAYERNAME_DEFAULT, oOther);
                 }
             }
         }
