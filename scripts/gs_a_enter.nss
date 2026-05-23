@@ -238,7 +238,9 @@ void main()
 
     //mortality
     SetImmortal(oEntering, nOverrideDeath);
+
     WriteTimestampedLogEntry("DEBUG: gs_a_enter GS_ENABLED=" + IntToString(GetLocalInt(oEntering, "GS_ENABLED")) + " for " + GetName(oEntering));
+
     switch (GetLocalInt(oEntering, "GS_ENABLED"))
     {
     case TRUE:
@@ -265,7 +267,6 @@ void main()
             DelayCommand(0.5, gsCreateBaseInventory(oEntering));
             gsFIOpenAccount(oEntering);
             DelayCommand(1.0, gsOpenWelcomeWindow(oEntering));
-            // mark as activated in DB
             string sBicActivate = NWNX_Player_GetBicFileName(oEntering);
             NWNX_SQL_ExecuteQuery("INSERT INTO player_data (bic, activated) VALUES ('" + sBicActivate + "', 1) ON DUPLICATE KEY UPDATE activated=1");
             DeleteLocalInt(oEntering, "GS_NEW_PLAYER");
@@ -280,7 +281,11 @@ void main()
         SetLocalInt(oEntering, "GS_ENABLED", TRUE);
         break;
     }
-    } // close switch
+
+    default:
+        SetLocalInt(oEntering, "GS_ENABLED", -1);
+        break;
+    }
 
     //exploration XP
     if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
