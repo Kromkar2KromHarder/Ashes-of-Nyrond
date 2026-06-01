@@ -89,7 +89,7 @@ void main()
         {
             if (GetIsPC(oOther) && !GetIsDM(oOther) && oOther != oPC)
             {
-                int nSenseMotive = d20() + GetSkillRank(SKILL_SENSE_MOTIVE, oOther);
+                int nSenseMotive = d20() + GetSkillRank(31, oOther);
                 if (nSenseMotive >= nBluff)
                 {
                     string sBicLiar  = NWNX_Player_GetBicFileName(oPC);
