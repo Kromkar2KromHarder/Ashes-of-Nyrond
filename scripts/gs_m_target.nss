@@ -6,7 +6,21 @@ void main()
 {
     object oPC     = GetLastPlayerToSelectTarget();
     object oTarget = GetTargetingModeSelectedObject();
-    string sName   = GetLocalString(oPC, "GS_ALIAS_NAME");
+
+    // handle !talkto
+    if (GetLocalInt(oPC, "GS_TALKTO_PENDING"))
+    {
+        DeleteLocalInt(oPC, "GS_TALKTO_PENDING");
+
+        if (!GetIsObjectValid(oTarget) || !GetIsPC(oTarget) || oTarget == oPC) return;
+
+        SetLocalObject(oPC, "GS_TALKTO_TARGET", oTarget);
+        FloatingTextStringOnCreature("You are now addressing: " + GetName(oTarget), oPC, FALSE);
+        return;
+    }
+
+    // handle !name
+    string sName = GetLocalString(oPC, "GS_ALIAS_NAME");
 
     if (!GetIsObjectValid(oTarget) || sName == "") return;
     if (!GetIsPC(oTarget)) return;
@@ -16,12 +30,10 @@ void main()
 
     if (oTarget == oPC)
     {
-        // setting own display name
         NWNX_SQL_ExecuteQuery(
             "INSERT INTO character_names (bic, display_name) VALUES ('" + sObsBic + "', '" + sName + "') " +
             "ON DUPLICATE KEY UPDATE display_name=VALUES(display_name)");
 
-        // update nameplate for all currently online players who don't have a personal alias
         object oOther = GetFirstPC();
         while (GetIsObjectValid(oOther))
         {
@@ -41,7 +53,6 @@ void main()
     }
     else
     {
-        // setting alias for another PC
         NWNX_SQL_ExecuteQuery(
             "INSERT INTO character_aliases (observer_bic, target_bic, alias) VALUES ('" + sObsBic + "', '" + sTargetBic + "', '" + sName + "') " +
             "ON DUPLICATE KEY UPDATE alias=VALUES(alias)");
