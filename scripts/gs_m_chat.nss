@@ -7,83 +7,23 @@ void main()
     object oPC = GetPCChatSpeaker();
     string sMessage = GetPCChatMessage();
 
-    // handle talkto formatting
-    object oTalkTarget = GetLocalObject(oPC, "GS_TALKTO_TARGET");
-    if (GetIsObjectValid(oTalkTarget) && GetStringLeft(sMessage, 1) != "!")
+    // handle pending lie
+    string sLiePending = GetLocalString(oPC, "GS_LIE_PENDING");
+    if (sLiePending != "" && GetStringLeft(sMessage, 1) != "/")
     {
-        string sBicSpeaker = NWNX_Player_GetBicFileName(oPC);
-        string sBicTarget  = NWNX_Player_GetBicFileName(oTalkTarget);
-
+        DeleteLocalString(oPC, "GS_LIE_PENDING");
         SetPCChatMessage("");
-        DeleteLocalObject(oPC, "GS_TALKTO_TARGET");
 
-        object oOther = GetFirstObjectInShape(SHAPE_SPHERE, 20.0, GetLocation(oPC), TRUE, OBJECT_TYPE_CREATURE);
-        while (GetIsObjectValid(oOther))
-        {
-            if (GetIsPC(oOther) && !GetIsDM(oOther))
-            {
-                string sBicOther   = NWNX_Player_GetBicFileName(oOther);
-                string sTargetName = "";
+        // speak the lie text as normal dialogue
+        AssignCommand(oPC, SpeakString(sLiePending));
 
-                NWNX_SQL_ExecuteQuery(
-                    "SELECT alias FROM character_aliases WHERE observer_bic='" + sBicOther + "' AND target_bic='" + sBicTarget + "'");
-                if (NWNX_SQL_ReadyToReadNextRow())
-                {
-                    NWNX_SQL_ReadNextRow();
-                    sTargetName = NWNX_SQL_ReadDataInActiveRow(0);
-                }
-                else
-                {
-                    NWNX_SQL_ExecuteQuery(
-                        "SELECT display_name FROM character_names WHERE bic='" + sBicTarget + "'");
-                    if (NWNX_SQL_ReadyToReadNextRow())
-                    {
-                        NWNX_SQL_ReadNextRow();
-                        sTargetName = NWNX_SQL_ReadDataInActiveRow(0);
-                    }
-                    else
-                    {
-                        sTargetName = "Stranger";
-                    }
-                }
+        // liar always sees their own flavor text
+        SendMessageToPC(oPC, "<c\x99\xcc\xff>" + sMessage + "</c>");
 
-                string sFormatted = "[To " + sTargetName + "]: " + sMessage;
-
-                if (oOther == oTalkTarget)
-                    SendMessageToPC(oOther, "<c\x99\xcc\xff>(!) " + sFormatted + "</c>");
-                else
-                    SendMessageToPC(oOther, sFormatted);
-            }
-            oOther = GetNextObjectInShape(SHAPE_SPHERE, 20.0, GetLocation(oPC), TRUE, OBJECT_TYPE_CREATURE);
-        }
-        return;
-    }
-
-    if (GetStringLeft(sMessage, 5) == "!name")
-    {
-        string sName = GetStringRight(sMessage, GetStringLength(sMessage) - 6);
-        SetLocalString(oPC, "GS_ALIAS_NAME", sName);
-        EnterTargetingMode(oPC, OBJECT_TYPE_CREATURE);
-        SetPCChatMessage("");
-    }
-
-    else if (GetStringLeft(sMessage, 7) == "!talkto")
-    {
-        SetLocalInt(oPC, "GS_TALKTO_PENDING", TRUE);
-        EnterTargetingMode(oPC, OBJECT_TYPE_CREATURE);
-        SetPCChatMessage("");
-    }
-
-    else if (GetStringLeft(sMessage, 4) == "/lie")
-    {
-        string sLie = GetStringRight(sMessage, GetStringLength(sMessage) - 5);
-        if (sLie == "") return;
-
-        SetPCChatMessage("");
-        AssignCommand(oPC, SpeakString(sLie));
-
+        // bluff roll
         int nBluff = d20() + GetSkillRank(SKILL_BLUFF, oPC);
 
+        // sense motive checks for nearby PCs
         object oOther = GetFirstObjectInShape(SHAPE_SPHERE, 15.0, GetLocation(oPC), TRUE, OBJECT_TYPE_CREATURE);
         while (GetIsObjectValid(oOther))
         {
@@ -118,11 +58,30 @@ void main()
                         }
                     }
 
-                    SendMessageToPC(oOther, "<c\x99\xcc\xff>You feel like " + sName + " is being untruthful...</c>");
+                    SendMessageToPC(oOther, "<c\x99\xcc\xff>" + sMessage + "</c>");
                 }
             }
             oOther = GetNextObjectInShape(SHAPE_SPHERE, 15.0, GetLocation(oPC), TRUE, OBJECT_TYPE_CREATURE);
         }
+        return;
+    }
+
+    if (GetStringLeft(sMessage, 5) == "!name")
+    {
+        string sName = GetStringRight(sMessage, GetStringLength(sMessage) - 6);
+        SetLocalString(oPC, "GS_ALIAS_NAME", sName);
+        EnterTargetingMode(oPC, OBJECT_TYPE_CREATURE);
+        SetPCChatMessage("");
+    }
+
+    else if (GetStringLeft(sMessage, 4) == "/lie")
+    {
+        string sLie = GetStringRight(sMessage, GetStringLength(sMessage) - 5);
+        if (sLie == "") return;
+
+        SetPCChatMessage("");
+        SetLocalString(oPC, "GS_LIE_PENDING", sLie);
+        SendMessageToPC(oPC, "(Lie queued. Your next message will trigger it.)");
     }
 
     else if (GetStringLeft(sMessage, 5) == "!date")

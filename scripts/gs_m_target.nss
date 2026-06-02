@@ -6,21 +6,7 @@ void main()
 {
     object oPC     = GetLastPlayerToSelectTarget();
     object oTarget = GetTargetingModeSelectedObject();
-
-    // handle !talkto
-    if (GetLocalInt(oPC, "GS_TALKTO_PENDING"))
-    {
-        DeleteLocalInt(oPC, "GS_TALKTO_PENDING");
-
-        if (!GetIsObjectValid(oTarget) || !GetIsPC(oTarget) || oTarget == oPC) return;
-
-        SetLocalObject(oPC, "GS_TALKTO_TARGET", oTarget);
-        FloatingTextStringOnCreature("You are now addressing: " + GetName(oTarget), oPC, FALSE);
-        return;
-    }
-
-    // handle !name
-    string sName = GetLocalString(oPC, "GS_ALIAS_NAME");
+    string sName   = GetLocalString(oPC, "GS_ALIAS_NAME");
 
     if (!GetIsObjectValid(oTarget) || sName == "") return;
     if (!GetIsPC(oTarget)) return;
