@@ -11,35 +11,7 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "gs_death"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
-          "value": "gs_area_dm"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
-          "value": "gs_enter"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
-          "value": "gs_area_trade"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
-          "value": "gs_area_inventor"
+          "value": "gs_area_demo1"
         }
       },
       {
@@ -47,13 +19,6 @@
         "Area_Name": {
           "type": "resref",
           "value": "gs_area_demo2"
-        }
-      },
-      {
-        "__struct_id": 6,
-        "Area_Name": {
-          "type": "resref",
-          "value": "gs_area_demo1"
         }
       },
       {
@@ -75,6 +40,41 @@
         "Area_Name": {
           "type": "resref",
           "value": "gs_area_demo5"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "gs_area_dm"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "gs_area_inventor"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "gs_area_trade"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "gs_death"
+        }
+      },
+      {
+        "__struct_id": 6,
+        "Area_Name": {
+          "type": "resref",
+          "value": "gs_enter"
         }
       }
     ]

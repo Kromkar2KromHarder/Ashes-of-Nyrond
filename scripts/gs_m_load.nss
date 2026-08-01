@@ -68,16 +68,15 @@ void main()
         SetTime(nHour, nMinute, 0, 0);
     }
 
-    NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS player_data (bic VARCHAR(64) PRIMARY KEY, area_tag VARCHAR(32), pos_x FLOAT, pos_y FLOAT, pos_z FLOAT, gold INT, rest_meter FLOAT, activated TINYINT DEFAULT 0)");
+    NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS player_data (bic VARCHAR(64) PRIMARY KEY, area_tag VARCHAR(32), pos_x FLOAT, pos_y FLOAT, pos_z FLOAT, gold INT, rest_meter FLOAT)");
     NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS explored_areas (bic VARCHAR(64), area_tag VARCHAR(32), PRIMARY KEY (bic, area_tag))");
     NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS server_time (id INT PRIMARY KEY, year INT, month INT, day INT, hour INT, minute INT, real_time INT, epoch_real INT, epoch_day INT)");
     NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS player_resources (bic VARCHAR(64), resource_key VARCHAR(64), resource_value INT, PRIMARY KEY (bic, resource_key))");
-    NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS character_names (bic VARCHAR(64) PRIMARY KEY, display_name VARCHAR(64))");
-    NWNX_SQL_ExecuteQuery("CREATE TABLE IF NOT EXISTS character_aliases (observer_bic VARCHAR(64), target_bic VARCHAR(64), alias VARCHAR(64), PRIMARY KEY (observer_bic, target_bic))");
     NWNX_Feedback_SetFeedbackMessageHidden(NWNX_FEEDBACK_REST_BEGINNING_REST, TRUE);
     NWNX_Feedback_SetFeedbackMessageHidden(NWNX_FEEDBACK_REST_CANCEL_REST, TRUE);
-    
 
     ExecuteScript("gs_time_advance", OBJECT_SELF);
-    NWNX_Events_SubscribeEvent("NWNX_ON_FEAT_USE_AFTER", "gs_feat_use");
+    NWNX_Events_SubscribeEvent("NWNX_ON_CLIENT_ENTER_AFTER", "gs_after_enter");
+    WriteTimestampedLogEntry("DEBUG: Subscribed to NWNX_ON_CLIENT_ENTER_AFTER");
 }
+

@@ -1,4 +1,3 @@
-#include "gs_nui_welcome"
 #include "nwnx_player"
 #include "nwnx_sql"
 #include "gs_inc_chain"
@@ -10,6 +9,7 @@
 #include "gs_inc_listener"
 #include "gs_inc_text"
 #include "gs_inc_worship"
+#include "gs_inc_resources"
 
 const int GS_TIMEOUT         = 3600; //1 hour
 const int GS_EXPERIENCE_BASE = 1000; //level 2
@@ -239,38 +239,39 @@ void main()
     //mortality
     SetImmortal(oEntering, nOverrideDeath);
 
-    WriteTimestampedLogEntry("DEBUG: gs_a_enter GS_ENABLED=" + IntToString(GetLocalInt(oEntering, "GS_ENABLED")) + " for " + GetName(oEntering));
-
     switch (GetLocalInt(oEntering, "GS_ENABLED"))
     {
-    case TRUE:
-        ExportSingleCharacter(oEntering);
-        break;
+case TRUE:
+    ExportSingleCharacter(oEntering);
+    DelayCommand(3.0, gsRestoreResources(oEntering));
+    break;
 
     case -1:
-    {
         //listener
         gsLICreateListener(oEntering);
         //player activation
-        if (GetLocalInt(oEntering, "GS_NEW_PLAYER"))
+        if (! gsPCGetIsPlayerActive(oEntering))
         {
             if (GetHitDice(oEntering) == 1)
             {
+                //remove gold
                 AssignCommand(oEntering,
                               TakeGoldFromCreature(GetGold(oEntering),
                                                    oEntering,
                                                    TRUE));
+                //remove inventory
                 gsCMDestroyInventory(oEntering);
+                //give base experience
                 if (GetXP(oEntering) < GS_EXPERIENCE_BASE)
                     GiveXPToCreature(oEntering, GS_EXPERIENCE_BASE);
             }
+            //create base inventory
             DelayCommand(0.5, gsCreateBaseInventory(oEntering));
+            //open bank account
             gsFIOpenAccount(oEntering);
-            DelayCommand(1.0, gsOpenWelcomeWindow(oEntering));
-            string sBicActivate = NWNX_Player_GetBicFileName(oEntering);
-            NWNX_SQL_ExecuteQuery("INSERT INTO player_data (bic, activated) VALUES ('" + sBicActivate + "', 1) ON DUPLICATE KEY UPDATE activated=1");
-            DeleteLocalInt(oEntering, "GS_NEW_PLAYER");
+            gsPCActivatePlayer(oEntering);
         }
+        //chain
         if (gsCHGetHasChain())
         {
             object oChain = gsCHGetChain(oEntering);
@@ -280,26 +281,24 @@ void main()
         SendMessageToPC(oEntering, GS_T_16777216);
         SetLocalInt(oEntering, "GS_ENABLED", TRUE);
         break;
-    }
 
     default:
         SetLocalInt(oEntering, "GS_ENABLED", -1);
         break;
     }
 
-    //exploration XP
-    if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
+//exploration XP
+if (GetLocalInt(oEntering, "GS_ENABLED") == TRUE)
+{
+    string sAreaTag = GetTag(OBJECT_SELF);
+    if (! GetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag))
     {
-        string sAreaTag = GetTag(OBJECT_SELF);
-        if (! GetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag))
-        {
-            SetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag, TRUE);
-            NWNX_SQL_ExecuteQuery("INSERT INTO explored_areas (bic, area_tag) VALUES ('" + NWNX_Player_GetBicFileName(oEntering) + "', '" + sAreaTag + "')");
-            SendMessageToPC(oEntering, "<c???>You have discovered a new area.");
-            gsXPGiveExperience(oEntering, 15 + Random(26));
-        }
+        SetLocalInt(oEntering, "GS_EXPLORED_" + sAreaTag, TRUE);
+        NWNX_SQL_ExecuteQuery("INSERT INTO explored_areas (bic, area_tag) VALUES ('" + NWNX_Player_GetBicFileName(oEntering) + "', '" + sAreaTag + "')");
+        SendMessageToPC(oEntering, "<c???>You have discovered a new area.");
+        gsXPGiveExperience(oEntering, 15 + Random(26));
     }
-
+}
     //verify deity
     string sDeity = GetDeity(oEntering);
     if (sDeity != "" &&
@@ -308,7 +307,6 @@ void main()
         SetDeity(oEntering, "");
         SendMessageToPC(oEntering, GS_T_16777297);
     }
-
     //encounter
     if ((nTimeout || ! nEnabled) &&
         gsENGetEncounterChance())
@@ -321,3 +319,4 @@ void main()
         }
     }
 }
+
